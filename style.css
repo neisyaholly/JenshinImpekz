@@ -1,19 +1,112 @@
 *{
-    margin: 0;
     padding: 0;
-
+    margin: 0;
 }
 
 .header{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-around;
-}
-
-.kiri{
-    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8 );
+    width: 100%;
+    height: 15vh;
+    position: fixed;
 }
 
 .tengah{
     display: flex;
+    gap: 25px;
 }
+
+.tengah div{
+    display: flex;
+    align-items: center;
+}
+
+.tengah a{
+    color: rgba(255, 255, 255, 0.8 );
+    text-decoration: none;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    /* margin: -2px; */
+    border: 2px solid transparent;
+}
+
+.tengah div a:hover{
+    text-shadow: 0 0 20px #0C65AF;
+    border-bottom: #0C65AF 2px solid;
+    color: white;
+    /* margin: -1px; */
+}
+
+.kiri div{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.lang:hover img{
+    filter: drop-shadow(0 0 20px #0C65AF);
+    opacity: 1;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+}
+
+.lang img{
+    width: 35px;
+    height: 35px;
+    opacity: 0.8;
+}
+
+.kiri div:hover{
+    color: white;
+    text-shadow: 0 0 20px #0C65AF;
+}
+
+.kanan button{
+    padding: 15px 40px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8 );
+    background-color: rgba(12, 101, 175, 0.3);
+    border-radius: 2px;
+    border: white solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.kanan button:hover{
+    background-color: #0C65AF;
+    color: white;
+}
+
+.jumbotron{
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#videoBG{
+    /* position: absolute; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.isi-jumbotron{
+    position: absolute;
+
+}
+
+
+
+
