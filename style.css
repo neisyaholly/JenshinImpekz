@@ -3,12 +3,17 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(asset/INTER\ FONT.ttf);
+}
+
 .header{
     /* background-color: red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter;
     font-weight: 600;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.8 );
@@ -68,17 +73,17 @@
 
 .kiri div:hover{
     color: white;
-    text-shadow: 0 0 20px #0C65AF;
+    text-shadow: 0 0 15px #0C65AF;
 }
 
 .kanan button{
     padding: 15px 40px;
-    font-weight: 600;
     color: rgba(255, 255, 255, 0.8 );
     background-color: rgba(12, 101, 175, 0.3);
     border-radius: 2px;
     border: white solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -150,14 +155,19 @@
 .platforms img{
     width: 122px;
     height: 41px;
-    opacity: 0.3;
 }
 
 .platforms div{
     width: 122px;
     height: 41px;
-    border: white solid 1px;
+    border: rgba(255, 255, 255, 0.8) solid 1px;
     border-radius: 2px;
+    background-color: rgba(12, 101, 175, 0.3);
+}
+
+.platforms div:hover{
+    border: white solid 1px ;
+    background-color: #0C65AF;
 }
 
 
