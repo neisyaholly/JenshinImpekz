@@ -15,7 +15,7 @@
     align-items: center;
     font-family: Inter;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1250em;
     color: rgba(255, 255, 255, 0.8 );
     width: 100%;
     height: 15vh;
@@ -25,7 +25,8 @@
 
 .tengah{
     display: flex;
-    gap: 25px;
+    margin-left: 5%;
+    gap: 5%;
 }
 
 .tengah div{
@@ -40,7 +41,8 @@
     display: flex;
     align-items: center;
     /* margin: -2px; */
-    border: 2px solid transparent;
+    width: max-content;
+    border: 3px solid transparent;
 }
 
 .tengah div a:hover{
@@ -51,11 +53,12 @@
 }
 
 #idhome a{
-    border-bottom: #0C65AF 2px solid;
+    border-bottom: #0C65AF 3px solid;
 }
 
 #idhome a:hover{
     text-shadow: none;
+    color: white;
 }
 
 .kiri div{
@@ -65,7 +68,7 @@
 
 .lang:hover img{
     filter: drop-shadow(0 0 20px #0C65AF);
-    opacity: 1;
+    opacity: 1px;
 }
 
 .lang{
@@ -85,14 +88,14 @@
 }
 
 .kanan button{
-    padding: 15px 40px;
+    padding: 15px 30px;
     color: rgba(255, 255, 255, 0.8 );
     background-color: rgba(12, 101, 175, 0.3);
     border-radius: 2px;
     border: white solid;
     font-family: Inter;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1250em;
 }
 
 .kanan button:hover{
@@ -103,7 +106,7 @@
 .jumbotron{
     position: relative;
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: flex-end;
@@ -148,7 +151,7 @@
     /* background-color: brown; */
     font-family: Genshin-Impact;
     color: rgba(255, 255, 255, 0.95);
-    font-size: 35px;
+    font-size: 2.1875em;
     margin-left: 10%;
 }
 
@@ -156,7 +159,7 @@
     /* background-color: blue; */
     font-family: Genshin-Impact;
     color: rgba(255, 255, 255, 0.95); 
-    font-size: 18px;
+    font-size: 1.1250em;
     margin-left: 10%;
     margin-top: 0.3%;
 }
@@ -166,7 +169,7 @@
     display: flex;
     margin-top: 1%;
     margin-left: 10%;
-    gap: 10px;
+    gap: 0.7%;
 }
 
 .platforms img{
@@ -186,6 +189,336 @@
     border: white solid 1px ;
     background-color: #0C65AF;
 }
+
+.new-character{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-newchar{
+    position: relative;
+    background-image: url(asset/BACKGROUND\ NEW\ CHARACTER.png);
+    width: 100%;
+    height: 100%;
+}
+
+.background-newchar img{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.judul{
+    width: 40%;
+    height: 75%;
+    position: absolute;
+    /* background-color: blue; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-family: Inter;
+    font-size: 2.5em;
+    font-weight: 350;
+    letter-spacing: -.05em;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.judul img{
+    margin-top: 3%;
+    height: 3%;
+    width: 27%;
+}
+
+.kotak-besar{
+    /* background-color: black; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70%;
+    margin-top: 5%;
+}
+
+.kotak-besar div{
+    /* background-color: blueviolet; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.mikakanan img{
+    /* background-color: aqua; */
+    position: absolute;
+    width: 57%;
+    height: 100%;
+    margin-left: 43%;
+}
+
+.dehyakiri img{
+    /* background-color: red; */
+    position: absolute;
+    width: 57%;
+    height: 100%;
+}
+
+.new-weapon{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-newweap{
+    position: relative;
+    background-image: url(asset/BACKGROUND\ NEW\ WEAPON.png);
+    width: 100%;
+    height: 100%;
+}
+
+.background-newweap img{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.judulweapon{
+    width: 40%;
+    height: 75%;
+    position: absolute;
+    /* background-color: blue; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-family: Inter;
+    font-size: 2.5em;
+    font-weight: 350;
+    letter-spacing: -.05em;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.judulweapon img{
+    margin-top: 3%;
+    height: 3%;
+    width: 27%;
+}
+
+.isi-weapon{
+    /* background-color: blue; */
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    margin-top: 5%;
+    font-family: Genshin-Impact;
+    color: white;
+    font-size: 2.1875em;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.bgweaponkiri{
+    margin: 15%;
+}
+
+.weaponkiri{
+    display: flex;
+    align-items: center;
+}
+
+.weaponkanan{
+    display: flex;
+}
+
+.info-weaponkiri{
+    /* background-color: aquamarine; */
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 13%;
+}
+
+.info-weaponkanan{
+    /* background-color: aquamarine; */
+    position: absolute;
+    width: max-content;
+    margin-left: 28%;
+    margin-top: 26%;
+}
+
+.bintangweapkiri img, .bintangweapkanan img{
+    /* background-color: black; */
+    width: 90px;
+    height: 20px;
+    margin-bottom: 20%;
+}
+
+.gambarweapkanan{
+    /* background-color: aqua; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.gambarweapkanan img{
+    width: 95%;
+    height: 105%;
+}
+
+.gambarweapkiri{
+    /* background-color: blueviolet; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-right: 60%;
+    /* margin-top: 1%; */
+    margin-bottom: 5%;
+}
+
+.gambarweapkiri img{
+    width: 130%;
+    height: 140%;
+}
+
+.mondstadt-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-mondstadt-char{
+    position: relative;
+    background-image: url(asset/MONDSTADT-CHAR.png);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-mondstadt-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.liyue-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-liyue-char{
+    position: relative;
+    background-image: url(asset/LIYUE-CHAR.png);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-liyue-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.inazuma-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-inazuma-char{
+    position: relative;
+    background-image: url(asset/INAZUMA-CHAR.png);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-inazuma-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.sumeru-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-sumeru-char{
+    position: relative;
+    background-image: url(asset/SUMERU-CHAR.png);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-sumeru-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.comingsoon-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-comingsoon-char{
+    position: relative;
+    background-color: #111B20;
+    background-image: url(asset/COMINGSOON-CHAR.png);
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+
+
+
 
 
 
