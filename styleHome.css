@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: genshin;
+    src: url(asset/genshinFont.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(asset/interFont.ttf);
+}
+
+.jumbotron{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.videoBG{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.content-jumbotron{
+    z-index: 2;
+}
+
+.black-cover{
+    /* background-color: aqua; */
+    background-image: url(asset/blackCover.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.content-jumbotron{
+    /* background-color: dimgrey; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-jumbotron-box{
+    background-color: aqua;
+    width: 90%;
+    height: 100%;
+    font-family: genshin;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 20px rgba(0, 0,0, 0.5);
+}
+
+.start-journey{
+    font-size: 2.188rem;
+}
+
+.open-world{
+    font-size: 1.125rem;
+}
+
+.platforms-jumbotron{
+    background-color: black;
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ps{
+    background-image: url(asset/AssetHome/platformPS.png);
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    border: rgba(255, 255, 255, 0.8) solid 1px;
+    border-radius: 2%;
+    background-color: rgba(12, 101, 175, 0.3);
+}
+
+.app-store{
+    background-image: url(asset/AssetHome/platformAppStore.png);
+    width: 15%;
+    height: 50%;
+    background-size: cover;
+}
+
+.google-play{
+    background-image: url(asset/AssetHome/platformGooglePlay.png);
+    width: 15%;
+    height: 50%;
+    background-size: cover;
+}
+
+.windows{
+    background-image: url(asset/AssetHome/platformWindows.png);
+    width: 15%;
+    height: 50%;
+    background-size: cover;
+}
