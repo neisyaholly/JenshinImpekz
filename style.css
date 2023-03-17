@@ -42,7 +42,7 @@
     align-items: center;
     /* margin: -2px; */
     width: max-content;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
 }
 
 .tengah div a:hover{
@@ -216,7 +216,7 @@
 
 .judul{
     width: 40%;
-    height: 75%;
+    height: 82%;
     position: absolute;
     /* background-color: blue; */
     display: flex;
@@ -242,9 +242,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 70%;
-    margin-top: 5%;
+    width: 80%;
+    height: 73%;
+    margin-top: 3%;
 }
 
 .kotak-besar div{
@@ -277,6 +277,13 @@
     align-items: center;
 }
 
+.content-newweap{
+    position: relative;
+    background-color: brown;
+    width: 70%;
+    height: 70%;
+}
+
 .background-newweap{
     position: relative;
     background-image: url(asset/BACKGROUND\ NEW\ WEAPON.png);
@@ -285,8 +292,8 @@
 }
 
 .background-newweap img{
-    /* background-color: aqua; */
-    position: absolute;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -297,7 +304,7 @@
     width: 40%;
     height: 75%;
     position: absolute;
-    /* background-color: blue; */
+    background-color: blue;
     display: flex;
     align-items: flex-start;
     justify-content: center;
