@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------FONT---------- */
+@font-face {
+    font-family: Inter;
+    src: url(assetLG/INTER\ FONT.ttf);
+}
+
+@font-face {
+    font-family: Gen;
+    src: url(assetLG/GENSHIN\ FONT.ttf);
+}
+
+/* ----------UTAMA---------- */
+/* done */
+.utama{
+    width: 100%;
+    height: 100vh;
+    background-image: url("assetLG/REGISTER\ PAGE\ BACKGROUND1.png");
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    align-items: flex-end;
+}
+
+/* ----------KONTEN---------- */
+/* done */
+.konten{
+    /* background-color: blue; */
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+/* ----------KIRI---------- */
+/* done */
+.kiri{
+    /* background-color: green; */
+    width: 45%;
+    height: 100%;
+}
+
+/* Logo */
+.logo{
+    /* background-image: url("/assetLG/JENSHINIMPEKSLOGO4.png"); */
+    /* background-color: orange; */
+    width: 100%;
+    margin-top: 18%;
+    margin-left: -12%;
+
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+/* text-logo */
+.text-logo{
+    /* background-color: yellow; */
+    font-family: Gen;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: -6rem;
+
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+.start{
+    font-size: 2.25rem;
+}
+
+.the{
+    font-size: 1.1rem;
+}
+
+
+/* ----------KANAN---------- */
+/* done */
+.kanan{
+    background:rgba(255, 255, 255, 0.65);
+    width: 45%;
+    height: 100%;
+    font-family: Inter;
+}
+
+.atas{
+    /* background-color: grey; */
+    width: 85%;
+    height: 5%;
+    margin-left: 7%;
+    margin-top: 30%;
+    align-items: center;
+}
+
+.panah{
+    /* background-color: aqua; */
+    margin-top: -2.5rem;
+
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+.panah-judul{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+}
+
+.login{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.tengah{
+    /* background-color: brown; */
+    width: 85%;
+    height: 35%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+form input{
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    margin-bottom: 5%;
+    padding: 2.7% 2.5%;
+    font-size: 1.1rem;
+}
+
+.Playfor button{
+    width: 100%;
+    height: 3.4rem;
+    color: white;
+    background-color: black;
+    margin-top: 8%;
+    font-family: Inter;
+    font-size: 1.1rem;
+}
+
+.bawah{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    width:85%;
+    font-size: 0.9rem;
+}
+
+.forgot-Pass a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.register-Now a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+
+
+/* ----------MEDIA SCREEN---------- */
+
+@media screen and (max-width: 1440px){
+    .logo{
+        width: 40rem;
+        margin-left: -4rem;
+        margin-top: 10rem;
+    }
+
+    .start{
+        font-size: 1.8rem;
+    }
+    .the{
+        font-size: 1rem;
+    }
+
+    .atas{
+        width: 84%;
+        margin-left: 8%;
+        margin-top: 30%;
+    }
+
+
+    .login{
+        /* margin-top: rem; */
+        font-size: 2rem;
+    }
+
+    .tengah{
+        width: 85%;
+        height: 30%;
+        margin-left: 3rem;
+        margin-top: 4rem;
+    }
+    
+    form input{
+        background-color: white;
+        width: 100%;
+        height: 5%;
+        margin-bottom: 5%;
+        padding: 2.7% 2.5%;
+        font-size: 1.1rem;
+    }
+
+    .Playfor button{
+        width: 100%;
+        height: 3.5rem;
+    }
+    
+
+    .bawah{
+        width: 85%;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .konten{
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+    }
+
+    .logo{
+        width: 28rem;
+        margin-left: -5rem;
+        margin-top: 9rem;
+    }
+
+    .start{
+        margin-top: 2rem;
+        margin-left: -2.5rem;
+        font-size: 1.6rem;
+    }
+    .the{
+        font-size: 0.8rem;
+        margin-left: -2.5rem;
+    }
+
+    .atas{
+        width: 80%;
+        margin-left: 9.5%;
+        margin-top: 40%;
+    }
+
+    .login{
+        font-size: 1.45rem;
+    }
+
+    .panah{
+        margin-top: -1.4rem;
+    }
+
+    .tengah{
+        width: 80%;
+        height: 26%;
+        margin-left: 9.5%;
+        margin-top: 10%;
+    }
+
+    form input{
+        width: 100%;
+        height: 4%;
+        font-size: 0.8rem;
+    }
+
+    .Playfor button{
+        width: 100%;
+        height: 2.5rem;
+        font-size: 0.8rem;
+    }
+
+    .bawah{
+        width: 80%;
+        font-size: 0.6rem;
+        margin-left: 2.3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .konten{
+        margin-left: 3.4rem;
+        margin-right: 3.4rem;
+    }
+
+    .logo{
+        width: 22rem;
+        margin-left: -4rem;
+        margin-top: 7rem;
+    }
+
+    .start{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+    }
+    .the{
+        font-size: 0.6rem;
+    }
+
+    .atas{
+        width: 89%;
+        margin-left: 5%;
+        margin-top: 40%;
+    }
+
+    .login{
+        font-size: 1.1rem;
+    }
+
+    .panah{
+        margin-top: -1.2rem;
+    }
+
+    .tengah{
+        width: 89%;
+        height: 27%;
+        margin-left: 5%;
+    }
+
+    form input{
+        width: 100%;
+        height: 4%;
+        font-size: 0.5rem;
+    }
+
+
+    .Playfor button{
+        width: 100%;
+        height: 1.8rem;
+        font-size: 0.5rem;
+    }
+
+    .bawah{
+        width: 89%;
+        font-size: 0.45rem;
+        margin-left: 5%;
+    }
+
+}
+
+@media screen and (max-width: 426px){
+    .konten{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .kanan{
+        width: 12rem;
+    }
+
+    .logo{
+        width: 14rem;
+        margin-left: -2.5rem;
+        margin-top: 9.5rem;
+    }
+
+    .start{
+        margin-top: 4rem;
+        margin-right: -2rem;
+        font-size: 0.8rem;
+    }
+    .the{
+        margin-right: -2rem;
+        font-size: 0.45rem;
+    }
+
+    .atas{
+        width: 85%;
+        height: 3%;
+        margin-left: 7.5%;
+        margin-top: 75%;
+    }
+
+    .login{
+        font-size: 0.7rem;
+    }
+
+    .panah{
+        margin-top: -1.1rem;
+    }
+
+    .tengah{
+        width: 85%;
+        height: 20%;
+        margin-left: 7.5%;
+        margin-top: 10%;
+    }
+
+    form input{
+        width: 100%;
+        height: 4%;
+        font-size: 0.4rem;
+    }
+
+    .Playfor button{
+        width: 100%;
+        height: 1.4rem;
+        font-size: 0.45rem;
+    }
+
+    .bawah{
+        width: 85%;
+        font-size: 0.35rem;
+        margin-left: 7.5%
+    }
+
+}
+
+@media screen and (max-width: 376px){
+    .konten{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .logo{
+        width: 10rem;
+        margin-left: -2rem;
+        margin-top: 10rem;
+    }
+
+    /* .text-logo{
+        margin-right:0.1rem;
+    } */
+
+    .start{
+        margin-top: 5rem;
+        margin-right:-1rem;
+        font-size: 0.55rem;
+    }
+    .the{
+        font-size: 0.3rem;
+        margin-right:-1rem;
+    }
+
+    .login{
+        font-size: 0.6rem;
+    }
+    
+    .panah{
+        margin-top: -1rem;
+    }
+
+
+}
