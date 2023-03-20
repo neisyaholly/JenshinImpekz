@@ -15,7 +15,7 @@
 }
 
 .jumbotron{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 100%;
     height: 100vh;
     position: relative;
@@ -44,7 +44,7 @@
     background-image: url(asset/blackCover.png);
     width: 100%;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .content-jumbotron{
@@ -56,7 +56,7 @@
 }
 
 .content-jumbotron-box{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 90%;
     height: 100%;
     font-family: genshin;
@@ -69,12 +69,14 @@
 }
 
 .open-world{
+    margin-top: 0.5%;
     font-size: 1.125rem;
 }
 
 .platforms-jumbotron{
-    background-color: black;
-    width: 50%;
+    /* background-color: black; */
+    margin-top: 1%;
+    width: 40%;
     height: 20%;
     display: flex;
     justify-content: space-between;
@@ -83,31 +85,436 @@
 
 .ps{
     background-image: url(asset/AssetHome/platformPS.png);
-    width: 25%;
-    height: 100%;
+}
+
+.platforms-jumbotron div{
+    width: 23%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    border: rgba(255, 255, 255, 0.8) solid 1px;
+    border-radius: 2%;
+    background-color: rgba(12, 101, 175, 0.3);
+    /* width: 122px;
+    height: 41px;
+    border: rgba(255, 255, 255, 0.8) solid 1px;
+    border-radius: 2px;
+    background-color: rgba(12, 101, 175, 0.3); */
+}
+
+.platforms-jumbotron div:hover{
+    border: white solid 1px ;
+    background-color: #0C65AF;
+}
+
+.app-store{
+    background-image: url(asset/AssetHome/platformAppStore.png);
+    /* width: 23%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    border: rgba(255, 255, 255, 0.8) solid 1px;
+    border-radius: 2%;
+    background-color: rgba(12, 101, 175, 0.3); */
+}
+
+.google-play{
+    background-image: url(asset/AssetHome/platformGooglePlay.png);
+    /* width: 23%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    border: rgba(255, 255, 255, 0.8) solid 1px;
+    border-radius: 2%;
+    background-color: rgba(12, 101, 175, 0.3); */
+}
+
+.windows{
+    background-image: url(asset/AssetHome/platformWindows.png);
+    width: 23%;
+    height: 70%;
+    background-position: center;
     background-size: cover;
     border: rgba(255, 255, 255, 0.8) solid 1px;
     border-radius: 2%;
     background-color: rgba(12, 101, 175, 0.3);
 }
 
-.app-store{
-    background-image: url(asset/AssetHome/platformAppStore.png);
-    width: 15%;
-    height: 50%;
+.new-character{
+    background-image: url(asset/AssetHome/newCharacterBG.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.google-play{
-    background-image: url(asset/AssetHome/platformGooglePlay.png);
-    width: 15%;
-    height: 50%;
-    background-size: cover;
+.judul-character{
+    /* background-color: saddlebrown; */
+    width: 52%;
+    height: 25%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-start;
 }
 
-.windows{
-    background-image: url(asset/AssetHome/platformWindows.png);
-    width: 15%;
-    height: 50%;
+
+
+.new-weapon{
+    background-image: url(asset/AssetHome/newWeaponBG.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.black-cover{
+    background-image: url(asset/blackCover.png);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.judul-weapon{
+    /* background-color: saddlebrown; */
+    width: 52%;
+    height: 20%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    /* justify-self: center; */
+}
+
+.arrowLeft, .arrowRight{
+    /* background-color: aquamarine; */
+    width: 28%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.arrowLeft img{
+    /* background-color: black; */
+    width: 100%;
+    height: 50%;
+}
+
+.title-feature{
+    /* background-color: red; */
+    font-family: inter;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 300;
+}
+
+.arrowRight img{
+    /* background-color: blue; */
+    width: 100%;
+    height: 50%;
+}
+
+.content-weapon{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 67%;
+    align-self: center;
+    display: flex;
+    z-index: 2;
+}
+
+.weapon-kiri{
+    /* background-color: beige; */
+    background-image: url(asset/AssetHome/weaponKiriBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 50%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.weapon-kanan{
+    /* background-color: darkmagenta; */
+    background-image: url(asset/AssetHome/weaponKananBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 50%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.weapon-kanan img{
+    /* background-color: aqua; */
+    width: 55%;
+    height: 75%;
+}
+
+#weaponR:hover{
+    transition: .2s ease-in;
+    width: 65%;
+    height: 85%;
+}
+
+.weapon-kiri img{
+    width: 82%;
+    height: 92%;
+}
+
+#weaponL:hover{
+    transition: .2s ease-in;
+    width: 95%;
+    height: 105%;
+}
+
+.info-kiri, .info-kanan{
+    /* background-color: aqua; */
+    position: absolute;
+    /* background-color: aqua; */
+    width: 45%;
+    height: 40%;
+    bottom: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 0 20px rgba(0, 0,0, 0.5);
+    font-family: genshin;
+    font-size: 2.188rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-kiri img, .info-kanan img{
+    height: 10%;
+    width: 35%;
+    /* background-color: black; */
+}
+
+/* dhuar */
+
+.mondstadt-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-mondstadt-char{
+    position: relative;
+    background-image: url(asset/AssetHome/mondstadt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-mondstadt-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.liyue-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-liyue-char{
+    position: relative;
+    background-image: url(asset/AssetHome/liyue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-liyue-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.inazuma-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-inazuma-char{
+    position: relative;
+    background-image: url(asset/AssetHome/inazuma.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-inazuma-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.sumeru-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-sumeru-char{
+    position: relative;
+    background-image: url(asset/AssetHome/sumeru.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-sumeru-char img{
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.comingsoon-char{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-comingsoon-char{
+    position: relative;
+    background-color: #111B20;
+    background-image: url(asset/AssetHome/comingsoon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+} 
+
+@media screen and (max-width: 1025px){
+    .platforms-jumbotron{
+        margin-top: 1%;
+        width: 50%;
+        height: 20%;
+    }
+
+    .info-kiri, .info-kanan{
+        font-size: 1.5rem;
+    }
+
+    .title-feature{
+        font-size: 2rem;
+    }
+
+    .content-weapon{
+        height: 55%;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+    .platforms-jumbotron{
+        margin-top: 1%;
+        width: 70%;
+        height: 25%;
+    }
+
+    .info-kiri, .info-kanan{
+        font-size: 1rem;
+    }
+
+    .title-feature{
+        font-size: 1.5rem;
+    }
+
+    .content-weapon{
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .platforms-jumbotron{
+        margin-top: 1%;
+        width: 90%;
+        height: 15%;
+    }
+
+    .start-journey{
+        font-size: 1.2rem;
+    }
+    
+    .open-world{
+        margin-top: 0.5%;
+        font-size: 0.7rem;
+    }
+
+    .info-kiri, .info-kanan{
+        font-size: 1rem;
+    }
+
+    .title-feature{
+        font-size: 0.8rem;
+    }
+
+    .content-weapon{
+        flex-direction: column;
+        height: 80%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .judul-weapon, .judul-character{
+        height: 15%;
+        width: 70%;
+    }
+
+    .weapon-kanan,.weapon-kiri{
+        height: 70%;
+        width: 80%;
+    }
+
 }
