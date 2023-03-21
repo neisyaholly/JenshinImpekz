@@ -100,15 +100,60 @@ const sumeruObs = new IntersectionObserver(function(entries, sumeruObs){
 sumeruObs.observe(sumeru)
 
 
+
+// onclick
+// mondstadt
 const moreInfoMapsMondstadt = document.querySelector("#maps-mondstadt")
 const moreInfoMapsMondstadtDetail = document.querySelector("#more-info-mondstadt")
-const exitInfoButton = document.querySelector("#exit-info-mondstadt")
+const exitInfoButtonMondstadt = document.querySelector("#exit-info-mondstadt")
 
 moreInfoMapsMondstadt.addEventListener("click", function() {
     // console.log(moreInfoMapsMondstadtDetail)
     moreInfoMapsMondstadtDetail.style.display = "block"
 })
 
-exitInfoButton.addEventListener("click", function() {
+exitInfoButtonMondstadt.addEventListener("click", function() {
     moreInfoMapsMondstadtDetail.style.display = "none"
+})
+
+// liyue
+const moreInfoMapsLiyue = document.querySelector("#maps-liyue")
+const moreInfoMapsLiyueDetail = document.querySelector("#more-info-liyue")
+const exitInfoButtonLiyue = document.querySelector("#exit-info-liyue")
+
+moreInfoMapsLiyue.addEventListener("click", function() {
+    // console.log(moreInfoMapsMondstadtDetail)
+    moreInfoMapsLiyueDetail.style.display = "block"
+})
+
+exitInfoButtonLiyue.addEventListener("click", function() {
+    moreInfoMapsLiyueDetail.style.display = "none"
+})
+
+// inazuma
+const moreInfoMapsInazuma = document.querySelector("#maps-inazuma")
+const moreInfoMapsInazumaDetail = document.querySelector("#more-info-inazuma")
+const exitInfoButtonInazuma = document.querySelector("#exit-info-inazuma")
+
+moreInfoMapsInazuma.addEventListener("click", function() {
+    // console.log(moreInfoMapsMondstadtDetail)
+    moreInfoMapsInazumaDetail.style.display = "block"
+})
+
+exitInfoButtonInazuma.addEventListener("click", function() {
+    moreInfoMapsInazumaDetail.style.display = "none"
+})
+
+// sumeru
+const moreInfoMapsSumeru = document.querySelector("#maps-sumeru")
+const moreInfoMapsSumeruDetail = document.querySelector("#more-info-sumeru")
+const exitInfoButtonSumeru = document.querySelector("#exit-info-sumeru")
+
+moreInfoMapsSumeru.addEventListener("click", function() {
+    // console.log(moreInfoMapsMondstadtDetail)
+    moreInfoMapsSumeruDetail.style.display = "block"
+})
+
+exitInfoButtonSumeru.addEventListener("click", function() {
+    moreInfoMapsSumeruDetail.style.display = "none"
 })
