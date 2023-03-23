@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="REGIS1.css">
-    <title>Document</title>
+    <title>REGISTER</title>
 </head>
 <body>
     <!-- UTAMA--------- -->
@@ -40,31 +40,36 @@
                     </div>
                 </div>
                 <div class="tengah">
-                    <form action="">
+                    <form>
                         <!-- ----Name----- -->
                         <div class="input-name">
-                            <input type="text" placeholder="Name">
+                            <input type="text" id="input-name" placeholder="Name">
+                            <span id="errorName"></span>
                         </div>
 
                         <!-- ----Email----- -->
                         <div class="input-email">
-                            <input type="text" placeholder="Email">
+                            <input type="text" id="input-email" placeholder="Email">
+                            <span id="errorEmail"></span>
                         </div>
 
                         <!-- ----Password----- -->
                         <div class="input-password">
-                            <input type="text" placeholder="Pasword">
+                            <input type="text" id="input-pass" placeholder="Password">
+                            <span id="errorPass"></span>
                         </div>
 
                         <!-- ----Age----- -->
                         <div class="input-age">
-                            <input type="text" placeholder="Age">
+                            <input type="text" id="input-age" placeholder="Age">
+                            <span id="errorAge"></span>
                         </div>
 
                         <div class="cek">
                             <div class="cek1">
-                                <label><input 
-                                    type="checkbox"></label>
+                                <label>
+                                    <input id="checkbox" type="checkbox">
+                                </label>
                             </div>
                             <div class="cek2">
                                 I have read and agree to the
@@ -72,11 +77,12 @@
                                 &
                                 <a href="#">Privacy Policy</a>
                             </div>
+                            <span id="errorCheck"></span>
                         </div>
 
                         <!-- ----Play For----- -->
                         <div class="Playfor">
-                            <button>Play for Free</button>
+                            <button id="play">Play for Free</button>
                         </div>
 
                     </form>
@@ -93,6 +99,6 @@
         </div>
 
     </div>
-
+    <script src="register.js"></script>
 </body>
 </html>
