@@ -104,11 +104,13 @@
 
 .panah{
     /* background-color: aqua; */
-    margin-top: -2.5rem;
+    margin-top: -2rem;
 
     max-width: 100%; 
     display:block; 
     height: auto;
+    display: flex;
+    align-items: center;
 }
 
 .panah-judul{

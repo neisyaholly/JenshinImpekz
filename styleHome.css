@@ -149,8 +149,9 @@
     background-position: center;
     position: relative;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    flex-direction: column;
 }
 
 .judul-character{
@@ -161,10 +162,87 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    align-self: flex-start;
+    /* top: 0; */
+}
+
+.content-character{
+    /* background-color: antiquewhite; */
+    width: 80%;
+    height: 65vh;
+    position: relative;
+    z-index: 3;
+}
+
+.char{
+    width: 58%;
+    height: 100%;
+    /* background-color: pink;    */
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 
+
+
+.kiri-char{
+    width: 100%;
+    height: 100%;
+    /* background-color: gray;  */
+    /* background-image: url(asset/AssetHome/dehyaImg.png); */
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: left;
+    position: relative;
+}
+
+.char:nth-child(1) .kiri-char{
+    background-image: url(asset/AssetHome/dehyaImg.png);
+}
+
+.char:nth-child(2) .kanan-char{
+    background-image: url(asset/AssetHome/mikaDesc.png);
+    width: 68%;
+    display: none;
+    /* z-index: 2; */
+}
+
+/* #dehya:hover::after{
+    display: block;
+} */
+
+/* #mik:hover #desc-mik{
+    display: block;
+} */
+
+/* #dehya {
+    overflow: hidden;
+} */
+
+#desc-deh{
+    /* height: 100%;
+    width: 100%;
+    position: absolute;
+    right: -80%;
+    top: 0; */
+    /* background-image: url(asset/AssetHome/dehyaDesc.png); */
+    /* background-repeat: no-repeat;
+    background-size: 100% ;
+    display: none;
+    background-position: right; */
+}
+
+.char:nth-child(1) .kanan-char{
+    background-image: url(asset/AssetHome/dehyaDesc.png);
+    /* display: none; */
+    /* z-index: 2; */
+}
+
+.char:nth-child(2) .kanan-char{
+    background-image: url(asset/AssetHome/mikaImg.png);
+    /* width: 68.5%; */
+}
 
 .new-weapon{
     background-image: url(asset/AssetHome/newWeaponBG.png);
@@ -312,76 +390,70 @@
 
 /* dhuar */
 
-.mondstadt-char{
+.maps-char{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-maps-char{
+    position: relative;
+    /* background-image: url(asset/AssetHome/mondstadt.png); */
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: center;
     width: 100%;
     height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border: solid rgba(0, 0,0, 0.3) 7px;
 }
 
-.bg-mondstadt-char{
-    position: relative;
+.bg-maps-char:nth-child(1){
     background-image: url(asset/AssetHome/mondstadt.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
 }
-
-.bg-mondstadt-char img{
-    /* background-color: aqua; */
-    position: absolute;
-    /* top: 0; */
-    /* left: 0; */
-    width: 100%;
-    height: 100%;
-}
-
-.liyue-char{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bg-liyue-char{
-    position: relative;
+.bg-maps-char:nth-child(2){
     background-image: url(asset/AssetHome/liyue.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
 }
-
-.bg-liyue-char img{
-    /* background-color: aqua; */
-    position: absolute;
-    /* top: 0; */
-    /* left: 0; */
-    width: 100%;
-    height: 100%;
-}
-
-.inazuma-char{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bg-inazuma-char{
-    position: relative;
+.bg-maps-char:nth-child(3){
     background-image: url(asset/AssetHome/inazuma.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+}
+.bg-maps-char:nth-child(4){
+    background-image: url(asset/AssetHome/sumeru.png);
 }
 
-.bg-inazuma-char img{
+#hover-img{
+    width: 35%;
+    height: 106%;
+    justify-self: flex-end;
+    right: 2%;
+    display: none;
+}
+
+#garis-bawah{
+    width: 10%;
+    height: 10%;
+    bottom: 27%;
+    display: none;
+}
+
+.bg-maps-char:hover #hover-img, .bg-maps-char:hover #garis-bawah{
+    transition: 300ms ease-out;
+    display: block;
+}
+
+.bg-maps-char:hover{
+    border: white solid 7px;
+    transition: 300ms ease-out;
+    background-size: 120% 120%;
+}
+
+.bg-maps-char img{
     /* background-color: aqua; */
     position: absolute;
     /* top: 0; */
@@ -390,30 +462,27 @@
     height: 100%;
 }
 
-.sumeru-char{
-    width: 100%;
-    height: 30vh;
+.bg-maps-char:hover .hitam{
+    transition: 300ms ease-out;
+    /* border: white solid 7px; */
+    opacity: 0;
+}
+
+.maps-char-center{
+    background-image: url(asset/AssetHome/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: aqua; */
+    width: 30%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.bg-sumeru-char{
-    position: relative;
-    background-image: url(asset/AssetHome/sumeru.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.bg-sumeru-char img{
-    /* background-color: aqua; */
-    position: absolute;
-    /* top: 0; */
-    /* left: 0; */
-    width: 100%;
-    height: 100%;
+    color: white;
+    font-family: inter;
+    font-size: 2.188rem;
+    font-weight: 350;
+    z-index: 2;
 }
 
 .comingsoon-char{
@@ -430,9 +499,42 @@
     background-image: url(asset/AssetHome/comingsoon.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888888;
+    font-family: inter;
+    font-size: 2.188rem;
+    font-weight: 350;
 } 
+
+.container-character{
+    height: 70%;
+    width: 90%;
+    background-color: #888888;
+    display: flex;
+}
+
+.img-dehya{
+    width: 50%;
+    height: 100%;
+    background-image: url(asset/AssetHome/dehyaImg.png);
+    background-size: contain;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+
+.img-mika{
+    width: 50%;
+    height: 100%;
+    background-image: url(asset/AssetHome/mikaImg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 1025px){
     .platforms-jumbotron{
