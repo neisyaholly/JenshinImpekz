@@ -165,85 +165,6 @@
     /* top: 0; */
 }
 
-.content-character{
-    /* background-color: antiquewhite; */
-    width: 80%;
-    height: 65vh;
-    position: relative;
-    z-index: 3;
-}
-
-.char{
-    width: 58%;
-    height: 100%;
-    /* background-color: pink;    */
-    /* position: relative; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-
-
-
-.kiri-char{
-    width: 100%;
-    height: 100%;
-    /* background-color: gray;  */
-    /* background-image: url(asset/AssetHome/dehyaImg.png); */
-    background-repeat: no-repeat;
-    background-size: contain ;
-    background-position: left;
-    position: relative;
-}
-
-.char:nth-child(1) .kiri-char{
-    background-image: url(asset/AssetHome/dehyaImg.png);
-}
-
-.char:nth-child(2) .kanan-char{
-    background-image: url(asset/AssetHome/mikaDesc.png);
-    width: 68%;
-    display: none;
-    /* z-index: 2; */
-}
-
-/* #dehya:hover::after{
-    display: block;
-} */
-
-/* #mik:hover #desc-mik{
-    display: block;
-} */
-
-/* #dehya {
-    overflow: hidden;
-} */
-
-#desc-deh{
-    /* height: 100%;
-    width: 100%;
-    position: absolute;
-    right: -80%;
-    top: 0; */
-    /* background-image: url(asset/AssetHome/dehyaDesc.png); */
-    /* background-repeat: no-repeat;
-    background-size: 100% ;
-    display: none;
-    background-position: right; */
-}
-
-.char:nth-child(1) .kanan-char{
-    background-image: url(asset/AssetHome/dehyaDesc.png);
-    /* display: none; */
-    /* z-index: 2; */
-}
-
-.char:nth-child(2) .kanan-char{
-    background-image: url(asset/AssetHome/mikaImg.png);
-    /* width: 68.5%; */
-}
-
 .new-weapon{
     background-image: url(asset/AssetHome/newWeaponBG.png);
     background-repeat: no-repeat;
@@ -512,28 +433,84 @@
 } 
 
 .container-character{
-    height: 70%;
-    width: 90%;
-    background-color: #888888;
+    height: 65%;
+    width: 80%;
+    /* background-color: #888888; */
     display: flex;
+    
+    position: relative;
 }
 
 .img-dehya{
+    /* background-color: #111B20; */
     width: 50%;
     height: 100%;
     background-image: url(asset/AssetHome/dehyaImg.png);
-    background-size: contain;
-    background-position: center;    
+    background-size: 99%;
     background-repeat: no-repeat;
+    z-index: 5;
 }
 
 .img-mika{
     width: 50%;
     height: 100%;
     background-image: url(asset/AssetHome/mikaImg.png);
+    background-size: 99%;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.desc-mika{
+    background-image: url(asset/AssetHome/mikaDesc.png);
+    background-size: 99%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.desc-dehya{
+    background-image: url(asset/AssetHome/dehyaDesc.png);
+    background-size: 98.5%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.bungkus{
+    /* background-color: #111B20; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-desc{
+    /* background-color: #888888; */
+    width: 99%;
+    height: 60%;
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+}
+
+#content-mika{
+    background-image: url(asset/AssetHome/mikaLogo.png);
+}
+
+#content-dehya{
+    background-image: url(asset/AssetHome/dehyaLogo.png);
 }
 
 @media screen and (max-width: 1025px){
@@ -554,8 +531,6 @@
     .content-weapon{
         height: 55%;
     }
-
-
 }
 
 @media screen and (max-width: 770px) {
@@ -618,5 +593,4 @@
         height: 70%;
         width: 80%;
     }
-
 }
