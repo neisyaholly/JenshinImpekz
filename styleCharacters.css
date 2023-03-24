@@ -11,7 +11,7 @@
 
 .characters{
     /* background-color: pink; */
-    background-image: url(asset/AssetCharacters/BG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/BG.png?raw=true);
     background-size: cover;
     
     width: 100vw;
@@ -97,7 +97,7 @@
 .container-sideBar ul{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 23px;
 }
 
 .container-line{
@@ -186,145 +186,145 @@
 
 /* c1 */
 #c1{
-    background-image: url(asset/AssetCharacters/c1.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c1.png?raw=true);
 }
 
-#c1:hover::after {
+#c1.active:hover::after {
     content: "\00a0" "\00a0" "ALBEDO" "\A" "\00a0";
 }
 
 /* c2 */
 #c2{
-    background-image: url(asset/AssetCharacters/c2.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c2.png?raw=true);
 }
 
-#c2:hover::after {
+#c2.active:hover::after {
     content: "\00a0" "\00a0" "ALHAITHAM" "\A" "\00a0";
 }
 
 /* c3 */
 #c3{
-    background-image: url(asset/AssetCharacters/c3.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c3.png?raw=true);
 }
 
-#c3:hover::after {
+#c3.active:hover::after {
     content: "\00a0" "\00a0" "AMBER" "\A" "\00a0";
 }
 
 /* c4 */
 #c4{
-    background-image: url(asset/AssetCharacters/c4.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c4.png?raw=true);
 }
 
-#c4:hover::after {
+#c4.active:hover::after {
     content: "\00a0" "\00a0" "ARATAKI ITTO" "\A" "\00a0";
 }
 
 /* c5 */
 #c5{
-    background-image: url(asset/AssetCharacters/c5.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c5.png?raw=true);
 }
 
-#c5:hover::after {
+#c5.active:hover::after {
     content: "\00a0" "\00a0" "BEIDOU" "\A" "\00a0";
 }
 
 /* c6 */
 #c6{
-    background-image: url(asset/AssetCharacters/c6.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c6.png?raw=true);
 }
 
-#c6:hover::after {
+#c6.active:hover::after {
     content: "\00a0" "\00a0" "CHONGYUN" "\A" "\00a0";
 }
 
 /* c7 */
 #c7{
-    background-image: url(asset/AssetCharacters/c7.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c7.png?raw=true);
 }
 
-#c7:hover::after {
+#c7.active:hover::after {
     content: "\00a0" "\00a0" "COLLEI" "\A" "\00a0";
 }
 
 /* c8 */
 #c8{
-    background-image: url(asset/AssetCharacters/c8.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c8.png?raw=true);
 }
 
-#c8:hover::after {
+#c8.active:hover::after {
     content: "\00a0" "\00a0" "CYNO" "\A" "\00a0";
 }
 
 /* c9 */
 #c9{
-    background-image: url(asset/AssetCharacters/c9.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c9.png?raw=true);
 }
 
-#c9:hover::after {
+#c9.active:hover::after {
     content: "\00a0" "\00a0" "DILUC" "\A" "\00a0";
 }
 
 /* c10 */
 #c10{
-    background-image: url(asset/AssetCharacters/c10.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c10.png?raw=true);
 }
 
-#c10:hover::after {
+#c10.active:hover::after {
     content: "\00a0" "\00a0" "EULA" "\A" "\00a0";
 }
 
 /* c11 */
 #c11{
-    background-image: url(asset/AssetCharacters/c11.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c11.png?raw=true);
 }
 
-#c11:hover::after {
+#c11.active:hover::after {
     content: "\00a0" "\00a0" "KAMISATO AYAKA" "\A" "\00a0";
 }
 
 /* c12 */
 #c12{
-    background-image: url(asset/AssetCharacters/c12.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c12.png?raw=true);
 }
 
-#c12:hover::after {
+#c12.active:hover::after {
     content: "\00a0" "\00a0" "KEQING" "\A" "\00a0";
 }
 
 /* c13 */
 #c13{
-    background-image: url(asset/AssetCharacters/c13.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c13.png?raw=true);
 }
 
-#c13:hover::after {
+#c13.active:hover::after {
     content: "\00a0" "\00a0" "KUJOU SARA" "\A" "\00a0";
 }
 
 /* c14 */
 #c14{
-    background-image: url(asset/AssetCharacters/c14.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c14.png?raw=true);
 }
 
-#c14:hover::after {
+#c14.active:hover::after {
     content: "\00a0" "\00a0" "LAYLA" "\A" "\00a0";
 }
 
 /* c15 */
 #c15{
-    background-image: url(asset/AssetCharacters/c15.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c15.png?raw=true);
 }
 
-#c15:hover::after {
+#c15.active:hover::after {
     content: "\00a0" "\00a0" "MONA" "\A" "\00a0";
 }
 
 /* c16 */
 #c16{
-    background-image: url(asset/AssetCharacters/c16.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/c16.png?raw=true);
 }
 
-#c16:hover::after {
+#c16.active:hover::after {
     content: "\00a0" "\00a0" "ROSARIA" "\A" "\00a0";
 }
 
