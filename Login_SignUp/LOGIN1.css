@@ -19,10 +19,9 @@
 .utama{
     width: 100%;
     height: 100vh;
-    background-image: url("assetLG/REGISTER\ PAGE\ BACKGROUND1.png");
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/Login_SignUp/assetLG/REGISTER%20PAGE%20BACKGROUND1.png?raw=true);
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
     display: flex;
     align-items: flex-end;
 }
@@ -47,8 +46,6 @@
 
 /* Logo */
 .logo{
-    /* background-image: url("/assetLG/JENSHINIMPEKSLOGO4.png"); */
-    /* background-color: orange; */
     width: 100%;
     margin-top: 18%;
     margin-left: -12%;
@@ -81,7 +78,6 @@
 
 
 /* ----------KANAN---------- */
-/* done */
 .kanan{
     background:rgba(255, 255, 255, 0.65);
     width: 45%;
@@ -134,7 +130,7 @@ form input{
     height: 5%;
     margin-bottom: 1%;
     padding: 2.7% 2.5%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .input-email{
@@ -151,13 +147,13 @@ form input{
 
 #errorPass{
     /* background-color: rebeccapurple; */
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 2%;
     font-family: Inter;
 }
 
 #errorEmail{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 2%;
     font-family: Inter;
 }
@@ -169,7 +165,7 @@ form input{
     background-color: black;
     margin-top: 8%;
     font-family: Inter;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .bawah{
@@ -178,7 +174,7 @@ form input{
     justify-content: space-between;
     margin-left: 4rem;
     width:80%;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .forgot-Pass a{
@@ -224,7 +220,7 @@ form input{
 
     .login{
         /* margin-top: rem; */
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .panah{
         /* background-color: rebeccapurple; */
@@ -254,18 +250,18 @@ form input{
         background-color: white;
         width: 100%;
         height: 5%;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
         padding: 2.7% 2.5%;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
     #errorPass{
         /* background-color: rebeccapurple; */
-        font-size: 1rem;
-        margin-bottom: 5%;
+        font-size: 1.1rem;
+        margin-bottom: 3%;
     }
     #errorEmail{
-        font-size: 1rem;
-        margin-bottom: 5%;
+        font-size: 1.1rem;
+        margin-bottom: 3%;
     }
 
     .Playfor button{
@@ -276,7 +272,7 @@ form input{
     .bawah{
         margin-left: 3.5rem;
         width: 85%;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
 }
@@ -306,7 +302,7 @@ form input{
     }
 
     .login{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .panah{
@@ -323,14 +319,14 @@ form input{
     form input{
         width: 100%;
         height: 4%;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     #errorPass{
         /* background-color: rebeccapurple; */
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     #errorEmail{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
 
@@ -342,7 +338,7 @@ form input{
 
     .bawah{
         width: 80%;
-        font-size: 0.7rem;
+        font-size: 0.95rem;
         margin-left: 9.5%;
     }
 
@@ -373,7 +369,7 @@ form input{
     }
 
     .login{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .panah{
@@ -389,25 +385,25 @@ form input{
     form input{
         width: 100%;
         height: 4%;
-        font-size: 0.55rem;
+        font-size: 0.85rem;
     }
     #errorPass{
         /* background-color: rebeccapurple; */
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     #errorEmail{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .Playfor button{
         width: 100%;
         height: 1.8rem;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .bawah{
         width: 89%;
-        font-size: 0.5rem;
+        font-size: 0.75rem;
         margin-left: 5%;
     }
 
@@ -444,47 +440,58 @@ form input{
         width: 85%;
         height: 3%;
         margin-left: 7.5%;
-        margin-top: 75%;
+        margin-top: 100%;
     }
 
     .login{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .panah{
-        margin-top: -1rem;
+        margin-top: -1.2rem;
     }
 
     .tengah{
+        /* background-color: aliceblue; */
         width: 85%;
-        height: 20%;
+        height: 17%;
         margin-left: 7.5%;
         margin-top: 10%;
     }
 
     form input{
+        /* background-color: red; */
         width: 100%;
         height: 4%;
-        font-size: 0.45rem;
+        margin-bottom: 1%;
+        font-size: 0.5rem;
+    }
+
+    #input-pass{
+        /* background-color: yellow; */
+        margin-bottom: -3%;
     }
 
     .Playfor button{
         width: 100%;
         height: 1.4rem;
-        font-size: 0.45rem;
+        font-size: 0.55rem;
     }
 
     .bawah{
         width: 85%;
-        font-size: 0.35rem;
+        font-size: 0.47rem;
         margin-left: 7.5%
     }
+
     #errorPass{
         /* background-color: rebeccapurple; */
-        font-size: 0.4rem;
+        font-size: 0.45rem;
+        margin-bottom: 2%;
     }
     #errorEmail{
-        font-size: 0.4rem;
+        font-size: 0.45rem;
+        margin-bottom: 2%;
     }
 
 }

@@ -16,20 +16,18 @@
 }
 
 /* ----------UTAMA---------- */
-/* done */
 .utama{
     width: 100%;
     height: 100vh;
-    background-image: url("assetLG/REGISTER\ PAGE\ BACKGROUND1.png");
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/Login_SignUp/assetLG/REGISTER%20PAGE%20BACKGROUND1.png?raw=true);
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
     display: flex;
     align-items: flex-end;
 }
 
 /* ----------KONTEN---------- */
-/* done */
+
 .konten{
     /* background-color: blue; */
     display: flex;
@@ -41,7 +39,6 @@
 }
 
 /* ----------KIRI---------- */
-/* done */
 .kiri{
     /* background-color: green; */
     width: 45%;
@@ -50,7 +47,6 @@
 
 /* Logo */
 .logo{
-    /* background-image: url("/assetLG/JENSHINIMPEKSLOGO4.png"); */
     /* background-color: orange; */
     width: 100%;
     margin-top: 18%;
@@ -61,18 +57,6 @@
     height: auto;
 }
 
-/* text-logo */
-.logo{
-    /* background-image: url("/assetLG/JENSHINIMPEKSLOGO4.png"); */
-    /* background-color: orange; */
-    width: 100%;
-    margin-top: 18%;
-    margin-left: -12%;
-
-    max-width: 100%; 
-    display:block; 
-    height: auto;
-}
 
 /* text-logo */
 .text-logo{
@@ -97,7 +81,6 @@
 
 
 /* ----------KANAN---------- */
-/* done */
 .kanan{
     background:rgba(255, 255, 255, 0.65);
     width: 45%;
@@ -110,7 +93,7 @@
     width: 85%;
     height: 5%;
     margin-left: 7%;
-    margin-top: 25%;
+    margin-top: 20%;
     align-items: center;
 }
 
@@ -136,7 +119,7 @@
 
 .tengah{
     width: 85%;
-    height: 48%;
+    height: 50%;
     margin-left: 4rem;
     margin-top: 4rem;
 }
@@ -175,14 +158,13 @@ form input{
     width: 100%;
     /* margin-bottom: 0.5%; */
     padding: 2% 2.5%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .cek{
     display: flex;
     width: 85%;
     margin-left: 7%;
-    /* background-color: aliceblue; */
     display: flex;
     flex-direction: column;
 }
@@ -207,33 +189,33 @@ form input{
     margin-left: 1%;
     margin-bottom: 4%;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 #errorName{
-    font-size: 0.9;
-    margin-bottom: 3%;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
     font-family: Inter;
 }
 #errorEmail{
-    font-size: 0.9;
-    margin-bottom: 3%;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
     font-family: Inter;
 }
 #errorPass{
-    font-size: 0.9;
-    margin-bottom: 3%;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
     font-family: Inter;
 }
 #errorAge{
-    font-size: 0.9;
-    margin-bottom: 3%;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
     font-family: Inter;
 }
 #errorCheck{
     /* background-color: black; */
-    margin-top: -6%;
-    font-size: 0.9;
+    margin-top: -4%;
+    font-size: 1.2rem;
     height: max-content;
     margin-left: 1%;
     font-family: Inter;
@@ -248,7 +230,7 @@ form input{
     background-color: black;
     margin-top: 2%;
     font-family: Inter;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .bawah{
@@ -258,12 +240,11 @@ form input{
     margin-left: 4rem;
     margin-top: 4%;
     width:85%;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .return a{
     text-decoration: none;
-    /* background-color: rebeccapurple; */
     color: black;
     font-weight: 500;
 }
@@ -300,12 +281,12 @@ form input{
 
     .login{
         /* margin-top: rem; */
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .tengah{
-        width: 70%;
-        height: 40%;
+        width: 85%;
+        height: 43%;
         margin-left: 3.5rem;
         margin-top: 4rem;
     }
@@ -316,7 +297,7 @@ form input{
         height: 5%;
         /* margin-bottom: 2%; */
         padding: 2% 2.5%;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .cek1{
@@ -330,7 +311,7 @@ form input{
     .cek2{
         /* background-color: blue; */
         width: 200%;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         margin-bottom: 1%;
     }
 
@@ -341,40 +322,41 @@ form input{
     
 
     .bawah{
+        /* background-color: red; */
         width: 85%;
         font-size: 0.9rem;
         margin-left: 7%;
     }
 
     #errorName{
-        font-size: 0.9;
-        margin-bottom: 3%;
+        font-size: 1.1rem;
+        margin-bottom: 2%;
     }
     #errorEmail{
-        font-size: 0.9;
-        margin-bottom: 3%;
+        font-size: 1.1rem;
+        margin-bottom: 2%;
     }
     #errorPass{
-        font-size: 0.9;
-        margin-bottom: 3%;
+        font-size: 1.1rem;
+        margin-bottom: 2%;
     }
     #errorAge{
-        font-size: 0.9;
-        margin-bottom: 3%;
+        font-size: 1.1rem;
+        margin-bottom: 2%;
     }
     #errorCheck{
         /* background-color: black; */
-        margin-top: -7%;
-        font-size: 0.9;
-        margin-bottom: 7%;
+        margin-top: -1%;
+        font-size: 1.1rem;
+        /* margin-bottom: %; */
     }
     .return a{
         text-decoration: none;
         /* background-color: rebeccapurple; */
         color: black;
         font-weight: 500;
-        font-size: 0.9rem;
-        margin-left: -53%;
+        font-size: 1.2rem;
+        /* margin-left: -1%; */
     }
 
 }
@@ -403,16 +385,16 @@ form input{
     }
 
     .login{
-        font-size: 1.45rem;
+        font-size: 2.2rem;
     }
 
     .panah{
-        margin-top: -1.6rem;
+        margin-top: -2rem;
     }
 
     .tengah{
         width: 80%;
-        height: 43%;
+        height: 37.5%;
         margin-left: 9.5%;
         margin-top: 10%;
     }
@@ -504,7 +486,7 @@ form input{
     .tengah{
         /* background-color: rebeccapurple; */
         width: 89%;
-        height: 35%;
+        height: 30%;
         margin-left: 5%;
     }
 
@@ -612,7 +594,7 @@ form input{
 
     .tengah{
         width: 85%;
-        height: 25%;
+        height: 23%;
         margin-left: 7.5%;
         margin-top: 10%;
     }
@@ -645,7 +627,7 @@ form input{
     .bawah{
         width: 70%;
         font-size: 0.35rem;
-        margin-left: 7.5%
+        margin-left: 17%
     }
     .bawah a{
         font-size: 0.55rem;
