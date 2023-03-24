@@ -20,7 +20,7 @@
 }
 
 .jumbotronAboutGame{
-    background-image: url(asset/AssetAboutGame/jumbotronAboutGame.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/jumbotronAboutGame.png?raw=true);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -56,7 +56,7 @@
 /* kelar ^^^^ ud responsive juga ^^^^ */
 
 .stickyBackground{
-    background-image: url(asset/AssetAboutGame/stickyBackground.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/stickyBackground.png?raw=true);
     width: 100%;
     height: 100%;
     /* background-size: 100% 100%; */
@@ -161,29 +161,29 @@
 
 .image1
 {
-    background-image: url(asset/AssetAboutGame/content-img1.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-img1.png?raw=true);
 }
 
 .image2{
-    background-image: url(asset/AssetAboutGame/content-img2.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-img2.png?raw=true);
 }
 
 .image3{
-    background-image: url(asset/AssetAboutGame/content-img3.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-img3.png?raw=true);
 }
 
 .image4{
-    background-image: url(asset/AssetAboutGame/content-img4.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-img4.png?raw=true);
 }
 
 .image5{
-    background-image: url(asset/AssetAboutGame/content-img5.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-img5.png?raw=true);
 }
 
 .content-desc{
     /* background-color: antiquewhite; */
     position: absolute;
-    background-image: url(asset/AssetAboutGame/content-desc1.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-desc1.png?raw=true);
     background-size: 100% 100%;
     width: 40%;
     height: 60%;
@@ -196,7 +196,7 @@
 
 .content-desc2{
     position: absolute;
-    background-image: url(asset/AssetAboutGame/content-desc1.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-desc1.png?raw=true);
     background-size: 100% 100%;
     width: 40%;
     height: 60%;
@@ -265,7 +265,7 @@
 }
 
 .arrow-left-ss{
-    background-image: url(asset/AssetAboutGame/arrowLeftSS.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/arrowLeftSS.png?raw=true);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* background-color: cyan; */
@@ -283,7 +283,7 @@
 }
 
 .arrow-right-ss{
-    background-image: url(asset/AssetAboutGame/arrowRightSS.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/arrowRightSS.png?raw=true);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* background-color: cyan; */
@@ -311,7 +311,7 @@
 }
 
 .jenshin-logo{
-    background-image: url(asset/jenshinImpekzLogo.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/Login_SignUp/assetLG/JENSHIN%20IMPEKS%20LOGO.png?raw=true);
     background-position: center;
     background-size: cover;
     width: 40%;
@@ -356,7 +356,7 @@
 }
 
 .ps{
-    background-image: url(asset/AssetAboutGame/psLogo.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/psLogo.png?raw=true);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 40%;
@@ -364,7 +364,7 @@
 }
 
 .apple{
-    background-image: url(asset/AssetAboutGame/appleLogo.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/appleLogo.png?raw=true);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 10%;
@@ -372,7 +372,7 @@
 }
 
 .android{
-    background-image: url(asset/AssetAboutGame/androidLogo.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/androidLogo.png?raw=true);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 10%;
@@ -380,7 +380,7 @@
 }
 
 .windows{
-    background-image: url(asset/AssetAboutGame/windowsLogo.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/windowsLogo.png?raw=true);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 10%;
