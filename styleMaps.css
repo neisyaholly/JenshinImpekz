@@ -89,7 +89,7 @@
 }
 
 .teyvat{
-    background-image: url(asset/AssetMaps/teyvatBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/teyvatBG.png?raw=true);
     /* background-color: red; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,6 +127,7 @@
 }
 
 .vector-teyvat img{
+    /* background-color: red; */
     width: 2%;
     height: 13%;
 }
@@ -184,19 +185,19 @@
 }
 
 .section-maps:nth-child(2){
-    background-image: url(asset/AssetMaps/mondstadtBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/mondstadtBG.png?raw=true);
 }
 
 .section-maps:nth-child(3){
-    background-image: url(asset/AssetMaps/liyueBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/liyueBG.png?raw=true);
 }
 
 .section-maps:nth-child(4){
-    background-image: url(asset/AssetMaps/inazumaBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/inazumaBG.png?raw=true);
 }
 
 .section-maps:nth-child(5){
-    background-image: url(asset/AssetMaps/sumeruBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/sumeruBG.png?raw=true);
 }
 
 .container-maps{

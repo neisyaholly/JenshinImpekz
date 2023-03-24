@@ -16,20 +16,17 @@
 }
 
 /* ----------UTAMA---------- */
-/* done */
 .utama{
     width: 100%;
     height: 100vh;
-    background-image: url("assetLG/REGISTER\ PAGE\ BACKGROUND1.png");
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/Login_SignUp/assetLG/REGISTER%20PAGE%20BACKGROUND1.png?raw=true);
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
     display: flex;
     align-items: flex-end;
 }
 
 /* ----------KONTEN---------- */
-/* done */
 .konten{
     /* background-color: blue; */
     display: flex;
@@ -41,7 +38,6 @@
 }
 
 /* ----------KIRI---------- */
-/* done */
 .kiri{
     /* background-color: green; */
     width: 45%;
@@ -50,8 +46,6 @@
 
 /* Logo */
 .logo{
-    /* background-image: url("/assetLG/JENSHINIMPEKSLOGO4.png"); */
-    /* background-color: orange; */
     width: 100%;
     margin-top: 18%;
     margin-left: -12%;
@@ -68,24 +62,22 @@
     color: white;
     justify-content: center;
     text-align: center;
-    margin-top: -6rem;
-
+    margin-top: -8rem;
     max-width: 100%; 
     display:block; 
     height: auto;
 }
 
 .start{
-    font-size: 2.25rem;
+    font-size: 3.4rem;
 }
 
 .the{
-    font-size: 1.1rem;
+    font-size: 1.7rem;
 }
 
 
 /* ----------KANAN---------- */
-/* done */
 .kanan{
     background:rgba(255, 255, 255, 0.65);
     width: 45%;
@@ -104,7 +96,7 @@
 
 .panah{
     /* background-color: aqua; */
-    margin-top: -2.5rem;
+    margin-top: -3rem;
 
     max-width: 100%; 
     display:block; 
@@ -117,27 +109,53 @@
 }
 
 .login{
+    /* background-color: red; */
     color: black;
     justify-content: center;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 3.4rem;
 }
 
 .tengah{
     /* background-color: brown; */
     width: 85%;
     height: 35%;
-    margin-left: 3rem;
-    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
 }
 
 form input{
     background-color: white;
     width: 100%;
     height: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 2.7% 2.5%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+}
+
+.input-email{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: max-content;
+}
+
+#input-email{
+    height: max-content;
+}
+
+#errorPass{
+    /* background-color: rebeccapurple; */
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    font-family: Inter;
+}
+
+#errorEmail{
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    font-family: Inter;
 }
 
 .Playfor button{
@@ -147,16 +165,16 @@ form input{
     background-color: black;
     margin-top: 8%;
     font-family: Inter;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .bawah{
     /* background-color: burlywood; */
     display: flex;
     justify-content: space-between;
-    margin-left: 3rem;
-    width:85%;
-    font-size: 0.9rem;
+    margin-left: 4rem;
+    width:80%;
+    font-size: 1.3rem;
 }
 
 .forgot-Pass a{
@@ -179,16 +197,18 @@ form input{
 
 @media screen and (max-width: 1440px){
     .logo{
-        width: 40rem;
-        margin-left: -4rem;
-        margin-top: 10rem;
+        width: 45rem;
+        margin-left: -1.5rem;
+        margin-top: 18rem;
     }
-
+    .text-logo{
+        margin-left: 10%;
+    }
     .start{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
     .the{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .atas{
@@ -200,59 +220,80 @@ form input{
 
     .login{
         /* margin-top: rem; */
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+    .panah{
+        /* background-color: rebeccapurple; */
+        margin-top: -2.5rem;
+    }
+    .input-email{
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: max-content;
+    }
+
+    #input-email{
+        height: max-content;
     }
 
     .tengah{
         width: 85%;
         height: 30%;
-        margin-left: 3rem;
+        margin-left: 3.5rem;
         margin-top: 4rem;
     }
+
     
     form input{
         background-color: white;
         width: 100%;
         height: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
         padding: 2.7% 2.5%;
+        font-size: 1.4rem;
+    }
+    #errorPass{
+        /* background-color: rebeccapurple; */
         font-size: 1.1rem;
+        margin-bottom: 3%;
+    }
+    #errorEmail{
+        font-size: 1.1rem;
+        margin-bottom: 3%;
     }
 
     .Playfor button{
         width: 100%;
         height: 3.5rem;
     }
-    
 
     .bawah{
+        margin-left: 3.5rem;
         width: 85%;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
 }
 
 @media screen and (max-width: 1024px){
-    .konten{
-        margin-left: 4.5rem;
-        margin-right: 4.5rem;
-    }
-
     .logo{
-        width: 28rem;
-        margin-left: -5rem;
-        margin-top: 9rem;
+        width: 40rem;
+        margin-left: -4rem;
+        margin-top: 14rem;
     }
-
+    .text-logo{
+        margin-left: 1%;
+        margin-top: -15%;
+    }
     .start{
-        margin-top: 2rem;
-        margin-left: -2.5rem;
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     .the{
-        font-size: 0.8rem;
-        margin-left: -2.5rem;
+        font-size: 1rem;
     }
+
 
     .atas{
         width: 80%;
@@ -261,11 +302,11 @@ form input{
     }
 
     .login{
-        font-size: 1.45rem;
+        font-size: 2.3rem;
     }
 
     .panah{
-        margin-top: -1.4rem;
+        margin-top: -1.9rem;
     }
 
     .tengah{
@@ -278,41 +319,47 @@ form input{
     form input{
         width: 100%;
         height: 4%;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
+    #errorPass{
+        /* background-color: rebeccapurple; */
+        font-size: 0.9rem;
+    }
+    #errorEmail{
+        font-size: 0.9rem;
+    }
+
 
     .Playfor button{
         width: 100%;
         height: 2.5rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .bawah{
         width: 80%;
-        font-size: 0.6rem;
-        margin-left: 2.3rem;
+        font-size: 0.95rem;
+        margin-left: 9.5%;
     }
+
 
 }
 
 @media screen and (max-width: 768px){
-    .konten{
-        margin-left: 3.4rem;
-        margin-right: 3.4rem;
-    }
-
     .logo{
-        width: 22rem;
+        width: 38rem;
         margin-left: -4rem;
-        margin-top: 7rem;
+        margin-top: 12rem;
     }
-
+    .text-logo{
+        margin-left: -2%;
+        margin-top: -15%;
+    }
     .start{
-        margin-top: 3rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .the{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .atas{
@@ -322,11 +369,11 @@ form input{
     }
 
     .login{
-        font-size: 1.1rem;
+        font-size: 1.8rem;
     }
 
     .panah{
-        margin-top: -1.2rem;
+        margin-top: -1.6rem;
     }
 
     .tengah{
@@ -338,19 +385,25 @@ form input{
     form input{
         width: 100%;
         height: 4%;
-        font-size: 0.5rem;
+        font-size: 0.85rem;
     }
-
+    #errorPass{
+        /* background-color: rebeccapurple; */
+        font-size: 0.7rem;
+    }
+    #errorEmail{
+        font-size: 0.7rem;
+    }
 
     .Playfor button{
         width: 100%;
         height: 1.8rem;
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
 
     .bawah{
         width: 89%;
-        font-size: 0.45rem;
+        font-size: 0.75rem;
         margin-left: 5%;
     }
 
@@ -361,102 +414,84 @@ form input{
         margin-left: 1rem;
         margin-right: 1rem;
     }
-
     .kanan{
         width: 12rem;
     }
-
-    .logo{
-        width: 14rem;
-        margin-left: -2.5rem;
-        margin-top: 9.5rem;
+    .text-logo{
+        margin-left: 10%;
+        margin-top: -20%;
     }
-
+    .logo{
+        width: 19rem;
+        margin-left: 0.01rem;
+        margin-top: 80%;
+    }
     .start{
-        margin-top: 4rem;
+        margin-top: 0.5rem;
         margin-right: -2rem;
         font-size: 0.8rem;
     }
     .the{
         margin-right: -2rem;
-        font-size: 0.45rem;
+        font-size: 0.4rem;
     }
 
     .atas{
         width: 85%;
         height: 3%;
         margin-left: 7.5%;
-        margin-top: 75%;
+        margin-top: 100%;
     }
 
     .login{
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .panah{
-        margin-top: -1.1rem;
+        margin-top: -1.2rem;
     }
 
     .tengah{
+        /* background-color: aliceblue; */
         width: 85%;
-        height: 20%;
+        height: 17%;
         margin-left: 7.5%;
         margin-top: 10%;
     }
 
     form input{
+        /* background-color: red; */
         width: 100%;
         height: 4%;
-        font-size: 0.4rem;
+        margin-bottom: 1%;
+        font-size: 0.5rem;
+    }
+
+    #input-pass{
+        /* background-color: yellow; */
+        margin-bottom: -3%;
     }
 
     .Playfor button{
         width: 100%;
         height: 1.4rem;
-        font-size: 0.45rem;
+        font-size: 0.55rem;
     }
 
     .bawah{
         width: 85%;
-        font-size: 0.35rem;
+        font-size: 0.47rem;
         margin-left: 7.5%
     }
 
-}
-
-@media screen and (max-width: 376px){
-    .konten{
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+    #errorPass{
+        /* background-color: rebeccapurple; */
+        font-size: 0.45rem;
+        margin-bottom: 2%;
     }
-
-    .logo{
-        width: 10rem;
-        margin-left: -2rem;
-        margin-top: 10rem;
+    #errorEmail{
+        font-size: 0.45rem;
+        margin-bottom: 2%;
     }
-
-    /* .text-logo{
-        margin-right:0.1rem;
-    } */
-
-    .start{
-        margin-top: 5rem;
-        margin-right:-1rem;
-        font-size: 0.55rem;
-    }
-    .the{
-        font-size: 0.3rem;
-        margin-right:-1rem;
-    }
-
-    .login{
-        font-size: 0.6rem;
-    }
-    
-    .panah{
-        margin-top: -1rem;
-    }
-
 
 }
