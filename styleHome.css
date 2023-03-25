@@ -41,7 +41,7 @@
 
 .black-cover{
     /* background-color: aqua; */
-    background-image: url(asset/blackCover.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/blackCover.png?raw=true);
     width: 100%;
     height: 100%;
     /* position: absolute; */
@@ -84,7 +84,7 @@
 }
 
 .ps{
-    background-image: url(asset/AssetHome/platformPS.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/platformPS.png?raw=true);
 }
 
 .platforms-jumbotron div{
@@ -108,7 +108,7 @@
 }
 
 .app-store{
-    background-image: url(asset/AssetHome/platformAppStore.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/platformAppStore.png?raw=true);
     /* width: 23%;
     height: 70%;
     background-position: center;
@@ -119,7 +119,7 @@
 }
 
 .google-play{
-    background-image: url(asset/AssetHome/platformGooglePlay.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/platformGooglePlay.png?raw=true);
     /* width: 23%;
     height: 70%;
     background-position: center;
@@ -130,7 +130,7 @@
 }
 
 .windows{
-    background-image: url(asset/AssetHome/platformWindows.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/platformWindows.png?raw=true);
     width: 23%;
     height: 70%;
     background-position: center;
@@ -141,7 +141,7 @@
 }
 
 .new-character{
-    background-image: url(asset/AssetHome/newCharacterBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/newCharacterBG.png?raw=true);
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
@@ -166,7 +166,7 @@
 }
 
 .new-weapon{
-    background-image: url(asset/AssetHome/newWeaponBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/newWeaponBG.png?raw=true);
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
@@ -180,7 +180,7 @@
 }
 
 .black-cover{
-    background-image: url(asset/blackCover.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/blackCover.png?raw=true);
     width: 100%;
     height: 100%;
     top: 0;
@@ -238,7 +238,7 @@
 
 .weapon-kiri{
     /* background-color: beige; */
-    background-image: url(asset/AssetHome/weaponKiriBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/weaponKiriBG.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50% 50%;
@@ -252,7 +252,7 @@
 
 .weapon-kanan{
     /* background-color: darkmagenta; */
-    background-image: url(asset/AssetHome/weaponKananBG.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/weaponKananBG.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50% 50%;
@@ -322,7 +322,7 @@
 
 .bg-maps-char{
     position: relative;
-    /* background-image: url(asset/AssetHome/mondstadt.png); */
+    /* background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mondstadt.png?raw=true); */
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
@@ -336,16 +336,16 @@
 }
 
 .bg-maps-char:nth-child(1){
-    background-image: url(asset/AssetHome/mondstadt.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mondstadt.png?raw=true);
 }
 .bg-maps-char:nth-child(2){
-    background-image: url(asset/AssetHome/liyue.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/liyue.png?raw=true);
 }
 .bg-maps-char:nth-child(3){
-    background-image: url(asset/AssetHome/inazuma.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/inazuma.png?raw=true);
 }
 .bg-maps-char:nth-child(4){
-    background-image: url(asset/AssetHome/sumeru.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/sumeru.png?raw=true);
 }
 
 #hover-img{
@@ -390,7 +390,7 @@
 }
 
 .maps-char-center{
-    background-image: url(asset/AssetHome/Vector.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/Vector.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     /* background-color: aqua; */
@@ -417,7 +417,7 @@
 .bg-comingsoon-char{
     position: relative;
     background-color: #111B20;
-    background-image: url(asset/AssetHome/comingsoon.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/comingsoon.png?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -445,7 +445,7 @@
     /* background-color: #111B20; */
     width: 50%;
     height: 100%;
-    background-image: url(asset/AssetHome/dehyaImg.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/dehyaImg.png?raw=true);
     background-size: 99%;
     background-repeat: no-repeat;
     z-index: 5;
@@ -454,14 +454,14 @@
 .img-mika{
     width: 50%;
     height: 100%;
-    background-image: url(asset/AssetHome/mikaImg.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mikaImg.png?raw=true);
     background-size: 99%;
     background-repeat: no-repeat;
     z-index: 5;
 }
 
 .desc-mika{
-    background-image: url(asset/AssetHome/mikaDesc.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mikaDesc.png?raw=true);
     background-size: 99%;
     background-repeat: no-repeat;
     width: 50%;
@@ -474,7 +474,7 @@
 }
 
 .desc-dehya{
-    background-image: url(asset/AssetHome/dehyaDesc.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/dehyaDesc.png?raw=true);
     background-size: 98.5%;
     background-repeat: no-repeat;
     width: 50%;
@@ -509,11 +509,11 @@
 }
 
 #content-mika{
-    background-image: url(asset/AssetHome/mikaLogo.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mikaLogo.png?raw=true);
 }
 
 #content-dehya{
-    background-image: url(asset/AssetHome/dehyaLogo.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/dehyaLogo.png?raw=true);
 }
 
 .container-content{
