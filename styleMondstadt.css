@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: genshin;
+    src: url(asset/genshinFont.ttf);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(asset/AssetCharacters/individualBG1.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 300ms;
+    filter: blur(4px);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.hitam{
+    width: 145%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 28.125rem;
+    position: absolute;
+    z-index: 3;
+    font-family: genshin;
+    color: rgba(255, 255, 255, 0.07);
+    left: -45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -25px;
+    top: 0;
+}
+
+.tulisanbelakang{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden; 
+    position: absolute;
+    z-index: 4;
+}

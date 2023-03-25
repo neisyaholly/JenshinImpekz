@@ -9,6 +9,11 @@
     src: url(asset/genshinFont.ttf);
 }
 
+@font-face {
+    font-family: inter;
+    src: url(asset/interFont.ttf);
+}
+
 .characters{
     /* background-color: pink; */
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/BG.png?raw=true);
@@ -53,13 +58,14 @@
     /* position: absolute; */
     /* position: static; */
     z-index: 3;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     justify-content: flex-end;
     margin-top: 1%;
     /* align-self: center; */
 }
 
 .container-sideBar ul li{
+    /* background-color: black; */
     list-style: none;
     text-align: end;
     font-size: 1.3rem;
@@ -68,36 +74,39 @@
     font-weight: 250;
     /* background-color: rgba(255, 255, 255, 0.3); */
     width: 150%;
-    height: 10%;
+    height: 13%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /* left: 0; */
+    /* right: 0; */
+    padding-left: 50px;
 }
 
 .container-sideBar ul li a{
+    /* background-color: pink; */
     text-decoration: none;
     color: white;
     font-family: inter;
     font-weight: 300;
     margin-right: 25%;
-    transition: ease-in;
 }
 
 .container-sideBar{
-    /* background-color: pink; */
-    flex-basis: 70%;
+    /* background-color: red; */
+    flex-basis: 100%;
     display: flex;
     justify-content: flex-start;
     box-sizing: border-box;
-    padding-left: 10%;
-    padding-top: 128px;
+    padding-left: 15%;
+    padding-top: 115px;
+    /* position: absolute; */
 }
 
 .container-sideBar ul{
+    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
-    gap: 23px;
+    gap: 5px;
 }
 
 .container-line{
@@ -106,13 +115,14 @@
     align-items: center;
     justify-content: flex-end;
     flex-basis: 30%;
+    background-color: aqua;
 }
 
 .container-line img{
     width: 2vw;
     height: 70vh;
     /* left: 0; */
-    /* top: 0; */
+    top: 100px;
 }
 
 .options{
@@ -121,6 +131,13 @@
     height: 100%;
     /* flex-basis: 75%; */
     z-index: 3;
+}
+
+#navbar-line{
+    width: 30px;
+    height: 550px;
+    /* align-self: center; */
+    left: 5%;
 }
 
 .options-char{
