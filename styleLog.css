@@ -6,11 +6,11 @@
 /* ----------FONT---------- */
 @font-face {
     font-family: Inter;
-    src: url(assetLG/INTER\ FONT.ttf);
+    src: url(asset/interFont.ttf);
 }
 @font-face {
     font-family: Gen;
-    src: url(assetLG/GENSHIN\ FONT.ttf);
+    src: url(asset/genshinFont.ttf);
 }
 
 .utama{
