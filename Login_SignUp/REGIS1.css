@@ -23,105 +23,87 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: flex-end;
 }
 
 /* ----------KONTEN---------- */
-
 .konten{
     /* background-color: blue; */
     display: flex;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 5%;
+    max-width: 90%;
     width: 100%;
     height: 100vh;
     justify-content: space-between;
+    /* align-items: center; */
 }
 
 /* ----------KIRI---------- */
 .kiri{
     /* background-color: green; */
-    width: 45%;
+    /* width: 41vw; */
+    width: calc(41vw + 2rem);
     height: 100%;
+    /* align-self: center; */
 }
-
-/* Logo */
 .logo{
-    /* background-color: orange; */
+    /* background-color: yellow; */
     width: 100%;
-    margin-top: 18%;
-    margin-left: -12%;
-
-    max-width: 100%; 
-    display:block; 
-    height: auto;
+    margin: calc(+40vh - 33%) 0 0 0; 
 }
-
-
-/* text-logo */
-.text-logo{
+.logo img{
+    margin: 0 calc(-30vw + 60%) -15% calc(-30vw + 60%);
+    /* background-color: red; */
+    max-width: 50vw;
+}
+.teksLog{
     /* background-color: yellow; */
     font-family: Gen;
     color: white;
     justify-content: center;
     text-align: center;
-    margin-top: -8rem;
-    max-width: 100%; 
-    display:block; 
-    height: auto;
+}
+h1{
+    font-size: calc(2.2vw + 0.1rem);
+}
+h2{
+    font-size: calc(1.2vw + 0.05rem);
 }
 
-.start{
-    font-size: 3.4rem;
-}
-
-.the{
-    font-size: 1.7rem;
-}
 
 
 /* ----------KANAN---------- */
 .kanan{
     background:rgba(255, 255, 255, 0.65);
-    width: 45%;
+    width: 40%;
     height: 100%;
     font-family: Inter;
 }
-
-.atas{
+.kanan .atas{
     /* background-color: grey; */
-    width: 85%;
-    height: 5%;
-    margin-left: 7%;
-    margin-top: 20%;
-    align-items: center;
+    width: 80%;
+    height: calc(3vw + 1.5%);
+    margin: calc(-10% + 25vh) calc(-5.5vw + 25%) 0 calc(-5.5vw + 25%);
 }
-
-.panah{
-    margin-top: -3rem;
+.panah img{
+    /* background-color: aqua; */
     max-width: 100%; 
     display:block; 
-    height: auto;
-    display: flex;
-    align-items: center;
+    margin-top: -2.5vw;
 }
-
-.panah-judul{
-    width: 100%;
-}
-
-.login{
+h3{
+    font-size: calc(2.5vw + 0.2rem);
+    font-weight: 400;
     color: black;
-    justify-content: center;
     text-align: center;
-    font-size: 3rem;
+    font-family: Inter;
 }
 
-.tengah{
-    width: 85%;
-    height: 50%;
-    margin-left: 4rem;
-    margin-top: 4rem;
+.kanan .tengah{
+    /* background-color: brown; */
+    height: calc(22.5vw + 3%);
+    width: 80%;
+    margin: 5% calc(-5.5vw + 25%) 0 calc(-5.5vw + 25%);
+
 }
 
 .input-email{
@@ -154,17 +136,17 @@
     height: max-content;
 }
 
-form input{
+.tengah form input{
     width: 100%;
     /* margin-bottom: 0.5%; */
-    padding: 2% 2.5%;
-    font-size: 1.5rem;
+    padding: 1.2% 2.5%;
+    font-size: 1.1rem;
 }
 
 .cek{
     display: flex;
     width: 85%;
-    margin-left: 7%;
+    margin-left: 3%;
     display: flex;
     flex-direction: column;
 }
@@ -181,69 +163,74 @@ form input{
     align-items: flex-start;
 }
 
-.cek2{
+.tengah .cek2{
     /* background-color: red; */
     width: 26vw;
     height: 5vh;
     margin-top: 3%;
-    margin-left: 1%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
-#errorName{
-    font-size: 1.2rem;
+.input-name #errorName{
+    font-size: 1rem;
     margin-bottom: 2%;
     font-family: Inter;
 }
-#errorEmail{
-    font-size: 1.2rem;
+.input-email #errorEmail{
+    font-size: 1rem;
     margin-bottom: 2%;
     font-family: Inter;
 }
-#errorPass{
-    font-size: 1.2rem;
+.input-password #errorPass{
+    font-size: 1rem;
     margin-bottom: 2%;
     font-family: Inter;
 }
-#errorAge{
-    font-size: 1.2rem;
+.input-age #errorAge{
+    font-size: 1rem;
     margin-bottom: 2%;
     font-family: Inter;
 }
-#errorCheck{
+.cek #errorCheck{
     /* background-color: black; */
     margin-top: -4%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: max-content;
     margin-left: 1%;
     font-family: Inter;
 }
 
-
-
-.Playfor button{
+.Playfor{
     width: 100%;
-    height: 3.4rem;
+    height: 5vh;
+}
+.tengah .Playfor button{
+    width: 100%;
+    height: 100%;
     color: white;
     background-color: black;
     margin-top: 2%;
     font-family: Inter;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
+
+
 
 .bawah{
     /* background-color: burlywood; */
     display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    width:80%;
     justify-content: center;
-    margin-left: 4rem;
-    margin-top: 4%;
-    width:85%;
-    font-size: 1.3rem;
+    text-align: center;    
+    margin: 1.5% calc(-5.5vw + 25%) 0 calc(-5.5vw + 25%);
 }
 
-.return a{
+.bawah .return a{
+    font-size: calc(1vw + 0.09rem);
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -257,32 +244,6 @@ form input{
 /* ----------MEDIA SCREEN---------- */
 
 @media screen and (max-width: 1440px){
-    .logo{
-        width: 45rem;
-        margin-left: -1.5rem;
-        margin-top: 18rem;
-    }
-    .text-logo{
-        margin-left: 10%;
-    }
-    .start{
-        font-size: 2.5rem;
-    }
-    .the{
-        font-size: 1.3rem;
-    }
-
-    .atas{
-        width: 84%;
-        margin-left: 8%;
-        margin-top: 30%;
-    }
-
-
-    .login{
-        /* margin-top: rem; */
-        font-size: 3rem;
-    }
 
     .tengah{
         width: 85%;
@@ -321,80 +282,35 @@ form input{
     }
     
 
-    .bawah{
-        /* background-color: red; */
-        width: 85%;
-        font-size: 0.9rem;
-        margin-left: 7%;
-    }
-
-    #errorName{
-        font-size: 1.1rem;
+    .input-name #errorName{
+        font-size: 1rem;
         margin-bottom: 2%;
     }
-    #errorEmail{
-        font-size: 1.1rem;
+    .input-email #errorEmail{
+        font-size: 1rem;
         margin-bottom: 2%;
     }
-    #errorPass{
-        font-size: 1.1rem;
+    .input-password #errorPass{
+        font-size: 1rem;
         margin-bottom: 2%;
     }
-    #errorAge{
-        font-size: 1.1rem;
+    .input-age #errorAge{
+        font-size: 1rem;
         margin-bottom: 2%;
     }
-    #errorCheck{
+    .cek #errorCheck{
         /* background-color: black; */
-        margin-top: -1%;
-        font-size: 1.1rem;
+        font-size: 1rem;
         /* margin-bottom: %; */
-    }
-    .return a{
-        text-decoration: none;
-        /* background-color: rebeccapurple; */
-        color: black;
-        font-weight: 500;
-        font-size: 1.2rem;
-        /* margin-left: -1%; */
     }
 
 }
 
 @media screen and (max-width: 1024px){
-    .logo{
-        width: 40rem;
-        margin-left: -4rem;
-        margin-top: 14rem;
-    }
-    .text-logo{
-        margin-left: 1%;
-        margin-top: -15%;
-    }
-    .start{
-        font-size: 2rem;
-    }
-    .the{
-        font-size: 1rem;
-    }
 
-    .atas{
+    .kanan .tengah{
         width: 80%;
-        margin-left: 9.5%;
-        margin-top: 40%;
-    }
-
-    .login{
-        font-size: 2.2rem;
-    }
-
-    .panah{
-        margin-top: -2rem;
-    }
-
-    .tengah{
-        width: 80%;
-        height: 37.5%;
+        height: 37%;
         margin-left: 9.5%;
         margin-top: 10%;
     }
@@ -423,232 +339,140 @@ form input{
         font-size: 1rem;
     }
 
-    .bawah{
-        width: 80%;
-        font-size: 0.7rem;
-        margin-left: 3.4rem;
-    }
-
-    #errorName{
+    .input-name #errorName{
         font-size: 0.8rem;
     }
-    #errorEmail{
+    .input-email #errorEmail{
         font-size: 0.8rem;
     }
-    #errorPass{
+    .input-password #errorPass{
         font-size: 0.8rem;
     }
-    #errorAge{
+    .input-age #errorAge{
         font-size: 0.8rem;
     }
-    #errorCheck{
+    .cek #errorCheck{
        font-size: 0.8rem; 
-       margin-top: -1%;
-    }
-    .return a{
-        font-size: 0.9rem;
-        margin-left: -1%;
+       margin-top: -2%;
     }
 
 }
 
 @media screen and (max-width: 768px){
-    .logo{
-        width: 38rem;
-        margin-left: -4rem;
-        margin-top: 12rem;
-    }
-    .text-logo{
-        margin-left: -2%;
-        margin-top: -15%;
-    }
-    .start{
-        font-size: 1.5rem;
-    }
-    .the{
-        font-size: 0.8rem;
-    }
 
-    .atas{
-        width: 89%;
-        margin-left: 5%;
-        margin-top: 40%;
-    }
-
-    .login{
-        font-size: 1.5rem;
-    }
-
-    .panah{
-        margin-top: -1.5rem;
-    }
-
-    .tengah{
+    .kanan .tengah{
         /* background-color: rebeccapurple; */
         width: 89%;
-        height: 30%;
+        height: 40%;
         margin-left: 5%;
     }
 
-    form input{
+    .tengah form input{
         width: 100%;
         height: 4%;
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
 
-    .cek1{
+    .tengah .cek1{
         width: 5%;
         height: 1%;
         margin-top: 1%;
         text-align: left;
+        margin-left: 2%;
     }
 
-
-    .cek2{
-        width: 200%;
-        font-size: 0.65rem;
+    .tengah .cek2{
+        width: 60vw;
+        /* background-color: yellow; */
+        font-size: 0.75rem;
+        margin-left: 2%;
     }
 
-    .Playfor button{
+    .tengah .Playfor button{
         width: 100%;
         height: 1.8rem;
         font-size: 0.65rem;
     }
 
-    .bawah{
-        /* background-color: red; */
-        width: 25%;
-        margin-top: 20%;
-        /* font-size: 0.rem; */
-        margin-left: 38%;
+    .input-name #errorName{
+        font-size: 0.7rem;
     }
-
-    .bawah a{
-        font-size: 0.65rem;
-    }
-
-    #errorName{
-        font-size: 0.6rem;
-    }
-    #errorEmail{
-        font-size: 0.6rem;
+    .input-email #errorEmail{
+        font-size: 0.7rem;
     }
     
-    #errorPass{
-        font-size: 0.6rem;
+    .input-password #errorPass{
+        font-size: 0.7rem;
     }
-    #errorAge{
-        font-size: 0.6rem;
+    .input-age #errorAge{
+        font-size: 0.7rem;
     }
-    #errorCheck{
-       font-size: 0.6rem; 
+    .cek #errorCheck{
+        font-size: 0.7rem; 
+        margin-top: -5%;
+        margin-left: 2%;
     }
-    #errorCheck{
-        font-size: 0.6rem; 
-        margin-top: -1%;
+    .bawah{
+        margin-top: -3%;
     }
 
 }
 
 @media screen and (max-width: 426px){
-    .konten{
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .kanan{
-        width: 12rem;
-    }
-    .text-logo{
+
+    .kanan .tengah{
+        width: 80%;
+        height: 33%;
         margin-left: 10%;
-        margin-top: -20%;
-    }
-    .logo{
-        width: 19rem;
-        margin-left: 0.01rem;
-        margin-top: 80%;
-    }
-    .start{
-        margin-top: 0.5rem;
-        margin-right: -2rem;
-        font-size: 0.8rem;
-    }
-    .the{
-        margin-right: -2rem;
-        font-size: 0.4rem;
     }
 
-    .atas{
-        width: 85%;
-        height: 3%;
-        margin-left: 7.5%;
-        margin-top: 75%;
-    }
-
-    .login{
-        font-size: 0.9rem;
-    }
-
-    .panah{
-        margin-top: -0.7rem;
-    }
-
-    .tengah{
-        width: 85%;
-        height: 23%;
-        margin-left: 7.5%;
-        margin-top: 10%;
-    }
-
-    form input{
+    .tengah form input{
         width: 100%;
         height: 4%;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+        margin-bottom: 1%;
     }
 
-    .cek1{
+    .tengah .cek1{
         width: 5%;
         height: 1%;
         margin-top: 1%;
         text-align: left;
+        font-size: 0.4rem;
     }
 
-    .cek2{
+    .tengah .cek2{
         width: 200%;
         font-size: 0.55rem;
     }
 
-    .Playfor button{
+    .tengah .Playfor button{
         width: 100%;
         height: 1.4rem;
         font-size: 0.55rem;
-        /* margin-top: -%; */
     }
 
-    .bawah{
-        width: 70%;
-        font-size: 0.35rem;
-        margin-left: 17%
-    }
-    .bawah a{
+    .input-name #errorName{
         font-size: 0.55rem;
     }
-
-    #errorName{
-        font-size: 0.45rem;
-    }
-    #errorEmail{
-        font-size: 0.345rem;
+    .input-email #errorEmail{
+        font-size: 0.55rem;
     }
     
-    #errorPass{
-        font-size: 0.45rem;
+    .input-password #errorPass{
+        font-size: 0.55rem;
     }
-    #errorAge{
-        font-size: 0.45rem;
+    .input-age #errorAge{
+        font-size: 0.55rem;
     }
-    #errorCheck{
-       font-size: 0.45rem;
-       /* margin-top: 80%;  */
+    .cek #errorCheck{
+       font-size: 0.55rem;
+       margin-top: -13%;
+       margin-bottom: 5%;
+    }
+
+    .kanan .bawah{
+        margin-top: -10%;
     }
 
 }
