@@ -1,7 +1,7 @@
-const container = document.querySelector(".bg")
+const container = document.querySelector(".container-page")
 const img = [
-    "asset/AssetCharacters/individualBG1.png",
-    "asset/AssetCharacters/individualBG2.jpeg"
+    "asset/AssetCharacters/individualBG1.jpg",
+    "asset/AssetCharacters/individualBG2.jpg"
 ]
 
 var i = 0
