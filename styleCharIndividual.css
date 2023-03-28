@@ -17,7 +17,7 @@
 .container-page{
     width: 100%;
     height: 100vh;
-    background-image: url(asset/AssetCharacters/individualBG1.jpg);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/individualBG1.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -39,7 +39,8 @@
 
 .char {
     /* background-color: antiquewhite; */
-    width: 75%;
+    /* width: 75%; */
+    width: calc(65vw + 60px);
     height: 100%;
     z-index: 5;
     position: absolute;
@@ -62,7 +63,7 @@
 }
 
 .back a{
-    background-image: url(asset/AssetCharacters/back.png);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/back.png?raw=true);
     /* background-color: pink; */
     background-position: center;
     background-repeat: no-repeat;
@@ -81,25 +82,31 @@
 }
 
 .garis-atas{
-    height: 1.5%;
+    /* height: 1.5%; */
+    height: calc(0.65vw - 0.1%);
     width: 30%;
     background-color: #CDA474;
     margin-bottom: 2%;
 }
 
 .nama{
-    font-size: 4.688rem;
+    /* background-color: red; */
+    /* font-size: 4.688rem; */
+    font-size: calc(4vw - 3%);
     font-family: genshin;
     color: white;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-    letter-spacing: -3px;
+    /* letter-spacing: -3px; */
+    letter-spacing: calc(-3px + 0.1rem);
 }
 
 .element{
     /* background-color: blue; */
-    width: 50.5%;
-    height: 11.55%;
-    background-image: url(asset/AssetCharacters/bawahnama.png);
+    /* width: 50.5%; */
+    /* height: 11.55%; */
+    width: calc(27vw - 1%);
+    height: calc(4vw - 0.15%);
+    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/bawahnama.png?raw=true);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,10 +116,12 @@
     justify-content: space-between;
     padding-left: 4%;
     font-family: inter;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
+    font-size: calc(1.25vw - 0.5%);
     color: black;
     font-weight: 350;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
+    letter-spacing: calc(-1vw + 2%);
 }
 
 .element-img{
@@ -158,7 +167,7 @@
     font-weight: 300;
     padding-left: 3%;
     font-size: 1.125rem;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
 }
 
 .tulisan-belakang{
@@ -183,4 +192,42 @@
     position: absolute;
     z-index: 1;
     top: 0;
+}
+
+@media screen and (max-width: 1440px){
+    .text{
+        font-size: 15px;
+        letter-spacing: -0.8px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .text{
+        font-size: 10px;
+        letter-spacing: -0.6px;
+    }
+    /* .desc{
+        width:80%;
+    } */
+}
+
+@media screen and (max-width: 768px){
+    .text{
+        font-size: 9px;
+        letter-spacing: -0.2px;
+    }
+    /* .desc{
+        width:65%;
+    } */
+}
+
+@media screen and (max-width: 426px){
+    .text{
+        font-size: 6px;
+        letter-spacing: -0.1px;
+    }
+
+    /* .desc{
+        width:70%;
+    } */
 }
