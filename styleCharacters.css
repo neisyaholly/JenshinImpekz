@@ -106,7 +106,9 @@
     /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 1px;
+    margin-top: -7%;
+    /* height: 90%; */
 }
 
 .container-line{
@@ -115,7 +117,7 @@
     align-items: center;
     justify-content: flex-end;
     flex-basis: 30%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .container-line img{
@@ -134,8 +136,9 @@
 }
 
 #navbar-line{
-    width: 30px;
-    height: 550px;
+    /* background-color: black; */
+    width: 23px;
+    height: 33vw;
     /* align-self: center; */
     left: 5%;
 }
@@ -145,7 +148,7 @@
     /* aspect-ratio: 1/1; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1.5%;
+    gap: 5%;
     /* width: 90%; */
     height: calc(70% + 10vw);
     width: calc(70% + 17vw);
@@ -358,5 +361,389 @@
         grid-template-columns: repeat(2,1fr);
         height: calc(80% + 10vw);
         /* width: calc(70% + 17vw); */
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .navbar-maps{
+        /* background-color: aqua; */
+        /* flex-basis: 25%; */
+        width: 30vw;
+        height: 50vh;
+        display: flex;
+        z-index: 3;
+        /* flex-direction: row-reverse; */
+        justify-content: flex-end;
+        margin-top: 6%;
+        /* align-self: center; */
+    }
+    
+    .container-sideBar ul li{
+        /* background-color: black; */
+        list-style: none;
+        text-align: end;
+        font-size: -.5rem;
+        color: white;
+        font-family: inter;
+        font-weight: 250;
+        /* background-color: rgba(255, 255, 255, 0.3); */
+        width: 150%;
+        height: 13%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* right: 0; */
+        padding-left: 50px;
+    }
+    
+    .container-sideBar ul li a{
+        /* background-color: pink; */
+        text-decoration: none;
+        color: white;
+        font-family: inter;
+        font-weight: 300;
+        /* margin-right: 25%; */
+        margin-left: 4%;
+        font-size: calc(1.5vw + 1%);
+    }
+    
+    .container-sideBar{
+        /* background-color: red; */
+        flex-basis: 100%;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding-left: 15%;
+        /* padding-top: -2px; */
+        /* position: absolute; */
+    }
+    
+    .container-sideBar ul{
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        gap: 15.6px;
+        margin-top: -94px;
+        height: 28.5vw;
+        margin-left: -18%;
+        width: 90%;
+    }
+    
+    .container-line{
+        /* background-color: black; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-basis: 30%;
+        /* background-color: aqua; */
+    }
+    
+    .container-line img{
+        width: 2vw;
+        height: 70vh;
+        /* left: 0; */
+        top: 100px;
+        /* background-color: yellow; */
+    }
+
+    #navbar-line{
+        /* background-color: black; */
+        width: 30px;
+        height: 40vw;
+        /* align-self: center; */
+        left: 2%;
+        margin-top: -7%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navbar-maps{
+        /* background-color: aqua; */
+        /* flex-basis: 25%; */
+        width: 30vw;
+        height: 50vh;
+        display: flex;
+        z-index: 3;
+        /* flex-direction: row-reverse; */
+        justify-content: flex-end;
+        margin-top: 6%;
+        /* align-self: center; */
+    }
+    
+    .container-sideBar ul li{
+        /* background-color: black; */
+        list-style: none;
+        text-align: end;
+        font-size: -.5rem;
+        color: white;
+        font-family: inter;
+        font-weight: 250;
+        /* background-color: rgba(255, 255, 255, 0.3); */
+        width: 150%;
+        height: 13%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* right: 0; */
+        padding-left: 50px;
+    }
+    
+    .container-sideBar ul li a{
+        /* background-color: pink; */
+        text-decoration: none;
+        color: white;
+        font-family: inter;
+        font-weight: 300;
+        margin-right: 25%;
+        font-size: calc(1.5vw + 1%);
+    }
+    
+    .container-sideBar{
+        /* background-color: red; */
+        flex-basis: 100%;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding-left: 15%;
+        /* padding-top: -2px; */
+        /* position: absolute; */
+    }
+    
+    .container-sideBar ul{
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -95px;
+        height: 28.5vw;
+        margin-left: -18%;
+    }
+    
+    .container-line{
+        /* background-color: black; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-basis: 30%;
+        /* background-color: aqua; */
+    }
+    
+    .container-line img{
+        width: 2vw;
+        height: 70vh;
+        /* left: 0; */
+        top: 100px;
+        /* background-color: yellow; */
+    }
+
+    #navbar-line{
+        /* background-color: black; */
+        width: 20px;
+        height: 40vw;
+        /* align-self: center; */
+        left: 2%;
+        margin-top: -7%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar-maps{
+        /* background-color: aqua; */
+        /* flex-basis: 25%; */
+        width: 30vw;
+        height: 50vh;
+        /* position: fixed; */
+        /* top: 10%; */
+        display: flex;
+        /* justify-content: cen; */
+        /* align-items: center; */
+        /* position: absolute; */
+        /* position: static; */
+        z-index: 3;
+        /* flex-direction: row-reverse; */
+        justify-content: flex-end;
+        margin-top: 6%;
+        /* align-self: center; */
+    }
+    
+    .container-sideBar ul li{
+        /* background-color: black; */
+        list-style: none;
+        text-align: end;
+        font-size: -.5rem;
+        color: white;
+        font-family: inter;
+        font-weight: 250;
+        /* background-color: rgba(255, 255, 255, 0.3); */
+        width: 150%;
+        height: 13%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* right: 0; */
+        padding-left: 50px;
+    }
+    
+    .container-sideBar ul li a{
+        /* background-color: pink; */
+        text-decoration: none;
+        color: white;
+        font-family: inter;
+        font-weight: 300;
+        /* margin-right: %; */
+        margin-left: -1%;
+        font-size: calc(2vw + 1%);
+    }
+    
+    .container-sideBar{
+        /* background-color: red; */
+        flex-basis: 100%;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding-left: 15%;
+        /* padding-top: -2px; */
+        /* position: absolute; */
+    }
+    
+    .container-sideBar ul{
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -90.5px;
+        height: 30vw;
+        margin-left: -20%;
+    }
+    
+    .container-line{
+        /* background-color: black; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-basis: 30%;
+        /* background-color: aqua; */
+    }
+    
+    .container-line img{
+        width: 2vw;
+        height: 70vh;
+        /* left: 0; */
+        top: 100px;
+        /* background-color: yellow; */
+    }
+    
+    
+    
+    #navbar-line{
+        /* background-color: black; */
+        width: 18px;
+        height: 45vw;
+        /* align-self: center; */
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .navbar-maps{
+        /* background-color: aqua; */
+        /* flex-basis: 25%; */
+        width: 30vw;
+        height: 38vh;
+        /* position: fixed; */
+        /* top: 10%; */
+        display: flex;
+        /* justify-content: cen; */
+        /* align-items: center; */
+        /* position: absolute; */
+        /* position: static; */
+        z-index: 3;
+        /* flex-direction: row-reverse; */
+        justify-content: flex-end;
+        margin-top: 6%;
+        /* align-self: center; */
+    }
+    
+    .container-sideBar ul li{
+        /* background-color: black; */
+        list-style: none;
+        text-align: end;
+        font-size: -.5rem;
+        color: white;
+        font-family: inter;
+        font-weight: 250;
+        /* background-color: rgba(255, 255, 255, 0.3); */
+        width: 150%;
+        height: 13%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* right: 0; */
+        padding-left: 50px;
+    }
+    
+    .container-sideBar ul li a{
+        /* background-color: pink; */
+        text-decoration: none;
+        color: white;
+        font-family: inter;
+        font-weight: 300;
+        /* margin-right: 25%; */
+        /* margin-left: -0%; */
+        margin-left: 5%;
+        font-size: calc(2.5vw + 1%);
+    }
+    
+    .container-sideBar{
+        /* background-color: red; */
+        flex-basis: 100%;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding-left: 15%;
+        /* padding-top: -2px; */
+        /* position: absolute; */
+    }
+    
+    .container-sideBar ul{
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: -90px;
+        height: 42.5vw;
+    }
+    
+    .container-line{
+        /* background-color: black; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-basis: 30%;
+        /* background-color: aqua; */
+    }
+    
+    .container-line img{
+        width: 2vw;
+        height: 70vh;
+        /* left: 0; */
+        top: 100px;
+        /* background-color: yellow; */
+    }
+    
+    .options{
+        display: flex;
+        width: 75%;
+        height: 100%;
+        /* flex-basis: 75%; */
+        z-index: 3;
+    }
+    
+    #navbar-line{
+        /* background-color: black; */
+        width: 14px;
+        height: 60vw;
+        /* align-self: center; */
+        left: 2%;
     }
 }

@@ -249,7 +249,8 @@
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/weaponKiriBG.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50% 50%;
+    /* background-size: 50% 50%; */
+    background-size: calc(15vw + 60px) calc(15vw + 60px);
     width: 50%;
     height: 100%;
     display: flex;
@@ -263,7 +264,8 @@
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/weaponKananBG.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50% 50%;
+    /* background-size: 50% 50%; */
+    background-size: calc(15vw + 60px) calc(15vw + 60px);
     width: 50%;
     height: 100%;
     display: flex;
@@ -285,13 +287,14 @@
 }
 
 .weapon-kiri img{
-    width: 82%;
+    /* width: 82%; */
+    width: calc(82% + 100%);
     height: 92%;
 }
 
 #weaponL:hover{
     transition: .2s ease-in;
-    width: 95%;
+    width: 205%;
     height: 105%;
 }
 
@@ -448,7 +451,6 @@
 }
 
 .comingsoon-char{
-    
     width: 100%;
     height: 30vh;
     display: flex;
@@ -471,15 +473,16 @@
     color: #888888;
     font-family: inter;
     /* font-size: 2.188rem; */
-    font-size: calc(3vw + 10%);
+    font-size: calc(2.5vw + 10%);
     font-weight: 350;
 } 
 
 .container-character{
     /* height: 65%; */
-    height: calc(31vw - 0.1%);
+    height: calc(39vw - 5%);
     width: 80%;
-    /* background-color: #888888; */
+    background-color: #888888;
+    margin-top: -2vw;
     display: flex;
     /* flex-flow: column; */
     position: relative;
@@ -644,9 +647,100 @@
         font-size: calc(3vw + 10%);
     }
 
+    /* .container-character{
+        height: calc(39vw - 5%);
+        width: 80%;
+        background-color: #888888;
+        margin-top: -2vw;
+        display: flex;
+        position: relative;
+    } */
+
+    .container-character{
+        /* height: 65%; */
+        /* height: 80%; */
+        margin-top: calc(-5vw + 10px);
+        height: calc(64vw + 10%);
+        /* width: calc(31vw - 0.1%); */
+
+        /* background-color: #888888; */
+        display: flex;
+        /* flex-flow: column; */
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .desc-dehya{
+        display: block;
+        position: absolute;
+        /* background-color: red; */
+        right: 0;
+        top: 0;
+        z-index: 10;
+        height: 40%;
+        /* margin-top: 4vw; */
+        margin-top: calc(5vw - 9px);
+    }
+
+    .desc-mika{
+        display: block;
+        position: absolute;
+        /* background-color: black; */
+        right: 0;
+        /* bottom: 30px; */
+        bottom: calc(29.9px - 0.9vw);
+        z-index: 10;
+        height: 40%;
+        /* margin-top: 100vw; */
+    }
+
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 410px){
+    .container-character{
+        /* height: 65%; */
+        /* height: 80%; */
+        margin-top: calc(10vw + 10px);
+        height: calc(64vw + 10%);
+        /* width: calc(31vw - 0.1%); */
+
+        /* background-color: #888888; */
+        display: flex;
+        /* flex-flow: column; */
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .desc-dehya{
+        display: block;
+        position: absolute;
+        /* background-color: red; */
+        right: 0;
+        top: 0;
+        z-index: 10;
+        height: 40%;
+        /* margin-top: 4vw; */
+        margin-top: calc(5vw - 9px);
+    }
+
+    .desc-mika{
+        display: block;
+        position: absolute;
+        /* background-color: black; */
+        right: 0;
+        /* bottom: 30px; */
+        bottom: calc(29px - 2.5vw);
+        z-index: 10;
+        height: 40%;
+        /* margin-top: 100vw; */
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+
     .platforms-jumbotron{
         margin-top: 1%;
         width: 60%;
@@ -690,89 +784,9 @@
     .maps-char-center{
         font-size: calc(5vw + 10%);
     }
-    /* .container-character{
-        flex-direction: column;
-    } */
-    .container-character{
-        /* height: 65%; */
-        height: calc(90vw - 0.1%);
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        background-color: #888888;
-        display: flex;
-        /* flex-flow: column; */
-        position: relative;
-    }
-    .content-desc{
-        /* background-color: red; */
-        width: 150px;
-        height: 100px;
-    }
+   
 
-
-    .desc-dehya{
-        background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/dehyaDesc.png?raw=true);
-        background-size: 98.5%;
-        background-repeat: no-repeat;
-        width: 50%;
-        height: 100%;
-        position: absolute;
-        right: 0;
-        display: none;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-    }
-    
-    .desc-mika .bungkus{
-        /* background-color: #111B20; */
-        background-color: rgb(39, 40, 55);
-        width: 100%;
-        height: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 115%;
-    }
-
-    .img-mika{
-        width: 50%;
-        height: 97%;
-        background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mikaImg.png?raw=true);
-        background-size: 99%;
-        background-repeat: no-repeat;
-        z-index: 5;
-        margin-left: 50%;
-    }
-
-    .desc-dehya .bungkus{
-        background-color: rgb(100, 1, 0);
-        width: 100%;
-        height: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .content-desc{
-        /* background-color: #888888; */
-        width: calc(40vw - 1%);
-        height: 60%;
-    }
-    
-    /* .content-desc{
-        background-color: #888888;
-        width: 99%;
-        height: 60%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-    } */
 }
+
+
+
