@@ -185,7 +185,7 @@
 }
 
 .black-cover{
-    background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/blackCover.png?raw=true);
+    /* background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/blackCover.png?raw=true); */
     width: 100%;
     height: 100%;
     top: 0;
@@ -320,6 +320,7 @@
 /* dhuar */
 
 .maps-char{
+    /* background-color: red; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -345,23 +346,52 @@
 
 .bg-maps-char:nth-child(1){
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mondstadt.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 .bg-maps-char:nth-child(2){
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/liyue.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 .bg-maps-char:nth-child(3){
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/inazuma.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 .bg-maps-char:nth-child(4){
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/sumeru.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 
 #hover-img{
-    width: 35%;
-    height: 106%;
+    /* width: 35%; */
+    width: calc(450px - 200px);
+    /* width: calc(31vw + 20%); */
+    height: 100%;
+    /* height: calc(12.5vw + 0.5vw); */
     justify-self: flex-end;
     right: 2%;
     display: none;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 #garis-bawah{
@@ -389,6 +419,8 @@
     /* left: 0; */
     width: 100%;
     height: 100%;
+    white-space: nowrap;
+    overflow: hidden; 
 }
 
 .bg-maps-char:hover .hitam{
@@ -409,12 +441,14 @@
     align-items: center;
     color: white;
     font-family: inter;
-    font-size: 2.188rem;
+    /* font-size: 2.188rem; */
+    font-size: calc(2.5vw + 10%);
     font-weight: 350;
     z-index: 2;
 }
 
 .comingsoon-char{
+    
     width: 100%;
     height: 30vh;
     display: flex;
@@ -436,7 +470,8 @@
     align-items: center;
     color: #888888;
     font-family: inter;
-    font-size: 2.188rem;
+    /* font-size: 2.188rem; */
+    font-size: calc(3vw + 10%);
     font-weight: 350;
 } 
 
@@ -444,9 +479,9 @@
     /* height: 65%; */
     height: calc(31vw - 0.1%);
     width: 80%;
-    background-color: #888888;
+    /* background-color: #888888; */
     display: flex;
-    
+    /* flex-flow: column; */
     position: relative;
 }
 
@@ -471,6 +506,7 @@
 
 .desc-mika{
     background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mikaDesc.png?raw=true);
+    
     background-size: 99%;
     background-repeat: no-repeat;
     width: 50%;
@@ -580,6 +616,9 @@
     .content-weapon{
         height: 55%;
     }
+
+  
+
 }
 
 @media screen and (max-width: 770px) {
@@ -600,6 +639,11 @@
     .content-weapon{
         height: 45%;
     }
+
+    .maps-char-center{
+        font-size: calc(3vw + 10%);
+    }
+
 }
 
 @media screen and (max-width: 430px) {
@@ -642,4 +686,93 @@
         height: 70%;
         width: 80%;
     }
+
+    .maps-char-center{
+        font-size: calc(5vw + 10%);
+    }
+    /* .container-character{
+        flex-direction: column;
+    } */
+    .container-character{
+        /* height: 65%; */
+        height: calc(90vw - 0.1%);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        background-color: #888888;
+        display: flex;
+        /* flex-flow: column; */
+        position: relative;
+    }
+    .content-desc{
+        /* background-color: red; */
+        width: 150px;
+        height: 100px;
+    }
+
+
+    .desc-dehya{
+        background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/dehyaDesc.png?raw=true);
+        background-size: 98.5%;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        display: none;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    
+    .desc-mika .bungkus{
+        /* background-color: #111B20; */
+        background-color: rgb(39, 40, 55);
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 115%;
+    }
+
+    .img-mika{
+        width: 50%;
+        height: 97%;
+        background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mikaImg.png?raw=true);
+        background-size: 99%;
+        background-repeat: no-repeat;
+        z-index: 5;
+        margin-left: 50%;
+    }
+
+    .desc-dehya .bungkus{
+        background-color: rgb(100, 1, 0);
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-desc{
+        /* background-color: #888888; */
+        width: calc(40vw - 1%);
+        height: 60%;
+    }
+    
+    /* .content-desc{
+        background-color: #888888;
+        width: 99%;
+        height: 60%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    } */
 }
