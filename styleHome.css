@@ -287,14 +287,13 @@
 }
 
 .weapon-kiri img{
-    /* width: 82%; */
-    width: calc(82% + 100%);
+    width: 82%;
     height: 92%;
 }
 
 #weaponL:hover{
     transition: .2s ease-in;
-    width: 205%;
+    width: 95%;
     height: 105%;
 }
 
@@ -336,7 +335,7 @@
     position: relative;
     /* background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mondstadt.png?raw=true); */
     background-repeat: no-repeat;
-    background-size: 110% 110%;
+    background-size: 100% 100%;
     background-position: center;
     width: 100%;
     height: 30vh;
@@ -344,6 +343,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    background-color: blue;
     border: solid rgba(0, 0,0, 0.3) 7px;
 }
 
@@ -361,6 +361,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+    background-color: yellow;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -624,6 +625,23 @@
 
 }
 
+@media screen and (max-width: 1210px){
+    /* .bg-maps-char:nth-child(1){
+        height: 100%;
+    } */
+
+    .bg-maps-char:nth-child(1){
+        background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/mondstadt.png?raw=true);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+    }
+    
+}
+
 @media screen and (max-width: 770px) {
     /* .platforms-jumbotron{
         margin-top: 1%;
@@ -739,7 +757,7 @@
 }
 
 @media screen and (max-width: 450px) {
-
+    
 
     .platforms-jumbotron{
         margin-top: 1%;
