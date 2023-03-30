@@ -1,7 +1,7 @@
 const container = document.querySelector(".container-page")
 const img = [
-    "asset/AssetCharacters/individualBG1.jpg",
-    "asset/AssetCharacters/individualBG2.jpg"
+    "https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/individualBG1.jpg?raw=true",
+    "https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetCharacters/individualBG2.jpg?raw=true"
 ]
 
 var i = 0
