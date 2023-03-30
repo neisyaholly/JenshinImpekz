@@ -477,7 +477,7 @@
 
 .container-character{
     /* height: 65%; */
-    height: calc(31vw - 0.1%);
+    height: calc(37vw - 0.1%);
     width: 80%;
     /* background-color: #888888; */
     display: flex;
@@ -719,7 +719,7 @@
         height: 100%;
         position: absolute;
         right: 0;
-        display: none;
+        display: block;
         /* display: flex;
         align-items: center;
         justify-content: center; */
@@ -762,6 +762,10 @@
         /* background-color: #888888; */
         width: calc(40vw - 1%);
         height: 60%;
+    }
+
+    .desc-mika{
+        display: block;
     }
     
     /* .content-desc{
