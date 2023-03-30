@@ -162,6 +162,7 @@ body{
     /* padding-top: -1%; */
     /* background-color: blueviolet; */
     align-items: center;
+    overflow: hidden;
 }
 
 .foot-Logo{
