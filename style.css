@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
-.logo{
+.logooo{
     /* background-color: aqua; */
     background-image: url(asset/jenshinImpekzLogo.png);
     background-size: cover;
@@ -27,15 +27,21 @@ body{
     overflow-x: hidden;
 }
 
+.header{
+    z-index: 1000;
+    position: relative;
+}
+
 nav{
-    background-color: brown; 
+    /* background-color: brown;  */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    position: fixed;
+    width: 100%;
 }
 
-.tengah{
+.tengaaa{
     display: flex;
     width: 60%;
     justify-content: center;
@@ -53,7 +59,7 @@ nav ul{
     align-items: center;
 }
 
-.active, .act{
+.aktif, .act{
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-weight: 600;
@@ -70,14 +76,14 @@ nav ul{
     justify-content: center;
 }
 
-.active:hover{
+.aktif:hover{
     color: white;
     filter: drop-shadow(0 0 5px #0C65AF);
     border-bottom: white solid 2px;
     border-top: solid 2px transparent;
 }
 
-.inactive{
+.inaktif{
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -136,6 +142,7 @@ nav ul{
     /* background-color: black; */
     align-items: center; 
     position: relative;
+    overflow: hidden;
 }
 
 /* dia opacitynya 0 cmn buat tau apakah dia kepencet */
@@ -193,7 +200,6 @@ nav ul{
     /* background-color: grey; */
     right: 0;
     z-index: -1;
-    padding-top: 400px; 
     right: -200px;
     transition: all ease 1000ms;
     /* left: 100%; */
@@ -221,7 +227,7 @@ nav ul{
         padding: 5px 10px;
     }
     
-    .tengah{
+    .tengaaa{
         width: 70%;
     }
     
@@ -230,7 +236,7 @@ nav ul{
         justify-content: space-around;
     }
     
-    .logo{
+    .logooooo{
         background-position: -4px 50%;
         width: 140px;
         height: 7vh;
@@ -244,21 +250,19 @@ nav ul{
 
 
     .list-menu{
+        display: flex;
+        flex-direction: column;
         position: absolute;
         width: 0%;
-        /* height: 100vh; */
-        background-color: grey;
+        background-color: rgba(0, 0, 0, 0.35);
         right: 0;
-        z-index: -1;
-        padding-top: 400px; 
+        top: 12vh;
         right: -110px;
         transition: all ease 1000ms;
-        /* left: 100%; */
-        display: block;
     }
         
-    .menu-active{
-        display: block;
+    .menu-aktif{
+        position: fixed;
         width: 30%;
         right: 0;
         transition: all ease 1000ms;
@@ -275,14 +279,6 @@ nav ul{
     }
 
     nav ul{
-        /* position: absolute;
-        right: 0;
-        top: 0;
-        height: 100vh;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        background-color: black; */
         display: none;
     }
 
@@ -294,7 +290,7 @@ nav ul{
         display: none;
     }
 
-    .logo{
+    .logooooo{
         background-position: -4px 50%;
         width: 250px;
         height: 10vh;

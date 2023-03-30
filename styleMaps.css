@@ -272,7 +272,7 @@
 }
 
 .content-maps .teks-maps{
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
     width: 60%;
     height: 6vw;
     font-size: calc(1vw - 3%);
