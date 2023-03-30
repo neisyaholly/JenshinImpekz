@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-y: hidden; */
 }
 
 @font-face {
@@ -34,6 +35,7 @@ body{
     height: calc(30vw - 20px);
     /* height: calc(45.3vh - 1%); */
     background-color:black;
+    overflow-y: hidden;
 
 
     width: 100%;
