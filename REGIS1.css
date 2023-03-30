@@ -1,3 +1,16 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(5px + 1vw);
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+} */
+
 *{
     margin: 0;
     padding: 0;
