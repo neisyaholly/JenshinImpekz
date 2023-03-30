@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    overflow-x: scroll;
+    /* scroll-behavior: smooth;
+    overflow-x: scroll; */
 }
 
-*::-webkit-scrollbar{
+/* *::-webkit-scrollbar{
     display: none;
-}
+} */
 
 @font-face {
     font-family: genshin;

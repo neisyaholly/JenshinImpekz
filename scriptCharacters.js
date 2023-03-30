@@ -22,7 +22,7 @@ const mondstadtObs = new IntersectionObserver(function(entries, mondstadtObs){
         if(entry.isIntersecting){
             document.querySelector(".mondstadt-bar").style.transitionDuration = "300ms";
             document.querySelector(".mondstadt-bar").style.backgroundColor = "rgba(255, 255, 255, 0.3)";
-            document.querySelector(".container-line img").src = 'asset/AssetMaps/side_bar2.png'
+            document.querySelector(".container-line img").src = 'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/side_bar2.png?raw=true'
             // document.querySelector(".mondstadt-bar").style.opacity = 1;
             /* background-color: rgba(255, 255, 255, 0.3); */
         }else if(!entry.isIntersecting){
@@ -41,7 +41,7 @@ const liyueObs = new IntersectionObserver(function(entries, liyueObs){
         if(entry.isIntersecting){
             document.querySelector(".liyue-bar").style.transitionDuration = "300ms";
             document.querySelector(".liyue-bar").style.backgroundColor = "rgba(255, 255, 255, 0.3)";
-            document.querySelector(".container-line img").src = 'asset/AssetMaps/side_bar3.png'
+            document.querySelector(".container-line img").src = 'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/side_bar3.png?raw=true'
             // document.querySelector(".mondstadt-bar").style.opacity = 1;
             /* background-color: rgba(255, 255, 255, 0.3); */
         }else if(!entry.isIntersecting){
@@ -60,7 +60,7 @@ const inazumaObs = new IntersectionObserver(function(entries, inazumaObs){
         if(entry.isIntersecting){
             document.querySelector(".inazuma-bar").style.transitionDuration = "300ms";
             document.querySelector(".inazuma-bar").style.backgroundColor = "rgba(255, 255, 255, 0.3)";
-            document.querySelector(".container-line img").src = 'asset/AssetMaps/side_bar4.png'
+            document.querySelector(".container-line img").src = 'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/side_bar4.png?raw=true'
             // document.querySelector(".mondstadt-bar").style.opacity = 1;
             /* background-color: rgba(255, 255, 255, 0.3); */
         }else if(!entry.isIntersecting){
@@ -79,7 +79,7 @@ const sumeruObs = new IntersectionObserver(function(entries, sumeruObs){
         if(entry.isIntersecting){
             document.querySelector(".sumeru-bar").style.transitionDuration = "300ms";
             document.querySelector(".sumeru-bar").style.backgroundColor = "rgba(255, 255, 255, 0.3)";
-            document.querySelector(".container-line img").src = 'asset/AssetMaps/side_bar5.png'
+            document.querySelector(".container-line img").src = 'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetMaps/side_bar5.png?raw=true'
             // document.querySelector(".mondstadt-bar").style.opacity = 1;
             /* background-color: rgba(255, 255, 255, 0.3); */
         }else if(!entry.isIntersecting){
