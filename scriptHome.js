@@ -5,11 +5,17 @@ const descMika = document.querySelector("#desc-mika")
 
 var x = window.matchMedia("(min-width: 500px)")
 
+
 // console.log(vw)
 setInterval(() => {
-    
+    // location.reload()
     var vw = window.innerWidth
-    if(vw > 430){
+    if(vw > 770){
+        // descDehya.style.display = "none"
+        // imgMika.style.opacity = "1"
+        // descMika.style.display = "none"
+        // imgDehya.style.opacity = "1"
+
         imgDehya.addEventListener("mouseover", function() {
             // if(x.matches){
                 descDehya.style.display = "block"
@@ -42,8 +48,13 @@ setInterval(() => {
             // }
             // console.log(1)
         })
+    } else{
+        // descDehya.style.display = "block"
+        // imgMika.style.opacity = "1"
+        // descMika.style.display = "block"
+        // imgDehya.style.opacity = "1"
     }
-}, 1);
+}, 100);
 
 
 

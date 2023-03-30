@@ -61,19 +61,22 @@
     height: 100%;
     font-family: genshin;
     color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0 0 20px rgba(0, 0,0, 0.5);
+    /* text-shadow: 0 0 20px rgba(0, 0,0, 0.5); */
 }
 
 .start-journey{
     /* background-color: red; */
     /* font-size: 2.188rem; */
     font-size: calc(2.1vw + 5%);
+    /* filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.5)); */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 .open-world{
     margin-top: 0.5%;
     /* font-size: 1.125rem; */
     font-size: calc(1vw + 6%);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 .platforms-jumbotron{
@@ -695,9 +698,9 @@
         right: 0;
         top: 0;
         z-index: 10;
-        height: 40%;
+        height: 50%;
         /* margin-top: 4vw; */
-        margin-top: calc(5vw - 9px);
+        /* margin-top: calc(5vw - 9px); */
     }
 
     .desc-mika{
@@ -706,53 +709,11 @@
         /* background-color: black; */
         right: 0;
         /* bottom: 30px; */
-        bottom: calc(29.9px - 0.9vw);
+        bottom: 0; 
         z-index: 10;
-        height: 40%;
+        height: 50%;
         /* margin-top: 100vw; */
     }
-
-}
-
-@media screen and (max-width: 410px){
-    .container-character{
-        /* height: 65%; */
-        /* height: 80%; */
-        margin-top: calc(10vw + 10px);
-        height: calc(64vw + 10%);
-        /* width: calc(31vw - 0.1%); */
-
-        /* background-color: #888888; */
-        display: flex;
-        /* flex-flow: column; */
-        flex-direction: column;
-        position: relative;
-    }
-    
-    .desc-dehya{
-        display: block;
-        position: absolute;
-        /* background-color: red; */
-        right: 0;
-        top: 0;
-        z-index: 10;
-        height: 40%;
-        /* margin-top: 4vw; */
-        margin-top: calc(5vw - 9px);
-    }
-
-    .desc-mika{
-        display: block;
-        position: absolute;
-        /* background-color: black; */
-        right: 0;
-        /* bottom: 30px; */
-        bottom: calc(29px - 2.5vw);
-        z-index: 10;
-        height: 40%;
-        /* margin-top: 100vw; */
-    }
-
 
 }
 
@@ -802,65 +763,4 @@
     .maps-char-center{
         font-size: calc(5vw + 10%);
     }
-   
-
-    .desc-dehya{
-        background-image: url(https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetHome/dehyaDesc.png?raw=true);
-        background-size: 98.5%;
-        background-repeat: no-repeat;
-        width: 50%;
-        height: 100%;
-        position: absolute;
-        right: 0;
-        display: block;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-    }
-    
-    .desc-mika .bungkus{
-        /* background-color: #111B20; */
-        background-color: rgb(39, 40, 55);
-        width: 100%;
-        height: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 115%;
-    }
-
-
-    .desc-dehya .bungkus{
-        background-color: rgb(100, 1, 0);
-        width: 100%;
-        height: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .content-desc{
-        /* background-color: #888888; */
-        width: calc(40vw - 1%);
-        height: 60%;
-    }
-
-    .desc-mika{
-        display: block;
-    }
-    
-    /* .content-desc{
-        background-color: #888888;
-        width: 99%;
-        height: 60%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-    } */
 }
