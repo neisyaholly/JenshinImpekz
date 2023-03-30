@@ -3,11 +3,11 @@ const imgSS = document.getElementById('imgSS')
 const arrowR = document.getElementById('arrowR')
 
 let imgSS_Arr = [
-    'asset/AssetAboutGame/content-ss1.png',
-    'asset/AssetAboutGame/content-ss2.png',
-    'asset/AssetAboutGame/content-ss3.png',
-    'asset/AssetAboutGame/content-ss4.png',
-    'asset/AssetAboutGame/content-ss5.png'
+    'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-ss1.png?raw=true',
+    'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-ss2.png?raw=true',
+    'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-ss3.png?raw=true',
+    'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-ss4.png?raw=true',
+    'https://github.com/neisyaholly/JenshinImpekz/blob/main/asset/AssetAboutGame/content-ss5.png?raw=true'
 ]
 
 console.log(imgSS_Arr[0])
