@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    overflow: scroll;
+}
+
 @font-face {
     font-family: genshin;
     src: url(asset/genshinFont.ttf);

@@ -16,6 +16,10 @@
     src: url(assetLG/GENSHIN\ FONT.ttf);
 }
 
+input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+}
+
 /* ----------UTAMA---------- */
 .utama{
     width: 100%;

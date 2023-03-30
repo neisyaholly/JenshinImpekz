@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .logooo{
@@ -30,6 +30,8 @@ body{
 .header{
     z-index: 1000;
     position: relative;
+    width: fit-content;
+    overflow-x: hidden;
 }
 
 nav{
@@ -57,6 +59,10 @@ nav ul{
     
     justify-content: space-between;
     align-items: center;
+}
+
+nav li{
+    list-style: none;
 }
 
 .aktif, .act{
@@ -234,6 +240,7 @@ nav ul{
     nav ul{
         display: flex;
         justify-content: space-around;
+        list-style: none;
     }
     
     .logooooo{
@@ -247,20 +254,20 @@ nav ul{
     .menu-toggle{
         display: flex;
     }
-
-
+    
+    
     .list-menu{
         display: flex;
         flex-direction: column;
         position: absolute;
         width: 0%;
-        background-color: rgba(0, 0, 0, 0.35);
+        /* background-color: rgba(0, 0, 0, 0.35); */
         right: 0;
         top: 12vh;
         right: -110px;
         transition: all ease 1000ms;
     }
-        
+    
     .menu-aktif{
         position: fixed;
         width: 30%;
@@ -272,6 +279,7 @@ nav ul{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        list-style: none;
         align-items: center;
         width: 100%;
         height: 100%;
